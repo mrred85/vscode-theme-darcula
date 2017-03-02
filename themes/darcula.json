@@ -45,6 +45,26 @@
 		},
 		{
 			"scope": [
+				"comment.block.preprocessor",
+				"comment.documentation",
+				"comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"comment.block keyword"
+			],
+			"settings": {
+				"foreground": "#77B767",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"scope": [
 				"constant.language",
 				"constant.other",
 				"support.constant.core",
@@ -228,13 +248,13 @@
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#9cdcfe" //@todo
+				"foreground": "#9cdcfe" // @todo
 			}
 		},
 		{
 			"scope": "meta.diff.header",
 			"settings": {
-				"foreground": "#c678dd" //@todo
+				"foreground": "#c678dd" // @todo
 			}
 		},
 		{
@@ -246,6 +266,7 @@
 				"storage.modifier.package.java"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -272,6 +293,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -291,12 +313,14 @@
 		{
 			"scope": "keyword",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -312,6 +336,7 @@
 				"keyword.operator.expression"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -327,6 +352,7 @@
 				"punctuation.section.embedded.end.metatag.php"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
@@ -416,6 +442,7 @@
 				"entity.name.tag.scss"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
