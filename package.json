@@ -1,0 +1,19 @@
+{
+	"name": "theme-darcula",
+	"displayName": "Darcula",
+	"description": "Darcula Theme for VSCode",
+	"categories": [ "Themes" ],
+	"version": "1.0.0",
+	"publisher": "Victor Rosu",
+	"engines": { "vscode": "*" },
+	"icon": "icon.svg",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula.json"
+			}
+		]
+	}
+}
