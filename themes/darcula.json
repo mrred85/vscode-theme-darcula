@@ -39,8 +39,8 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#808080",
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#808080"
 			}
 		},
 		{
@@ -50,8 +50,8 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#629755",
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#629755"
 			}
 		},
 		{
@@ -59,19 +59,26 @@
 				"comment.block keyword"
 			],
 			"settings": {
-				"foreground": "#77B767",
-				"fontStyle": "bold italic"
+				"fontStyle": "bold italic",
+				"foreground": "#77B767"
+			}
+		},
+		{
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
 			}
 		},
 		{
 			"scope": [
-				"constant.language",
 				"constant.other",
 				"support.constant.core",
 				"support.constant.ext"
 			],
 			"settings": {
-				"foreground": "#6897BB"
+				"fontStyle": "italic",
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -344,6 +351,7 @@
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
+				"fontStyle": "none",
 				"foreground": "#A5C261"
 			}
 		},
@@ -388,6 +396,14 @@
 			"scope": "meta.function-call.object",
 			"settings": {
 				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": "support.function.construct",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
 			}
 		},
 		{
