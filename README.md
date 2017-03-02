@@ -1,4 +1,4 @@
-# IntilliJ Darcula theme for Visual Studio Code
+# IntelliJ Darcula theme for Visual Studio Code
 
 Port of IntelliJ Darcula theme for VS Code.
 
