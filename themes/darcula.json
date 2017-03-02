@@ -290,7 +290,8 @@
 			"name": "JavaScript string interpolation ${}",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end"
+				"punctuation.definition.template-expression.end",
+				"punctuation.terminator"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -373,7 +374,10 @@
 			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
-				"java.class.entity.name.function"
+				"java.class.entity.name.function",
+				"support.function",
+				"support.function.any-method",
+				"support.function.git-rebase"
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -381,12 +385,17 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": [
-				"support.function",
-				"support.function.git-rebase"
-			],
+			"scope": "meta.function-call.object",
 			"settings": {
-				"foreground": "#A9B7C6"
+				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": "meta.function-call.static",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -458,6 +467,15 @@
 			}
 		},
 		{
+			"name": "Variable other property: var->Property",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
 			"name": "Object keys, TS grammar specific",
 			"scope": [
 				"meta.object-literal.key",
@@ -500,7 +518,7 @@
 				"constant.numeric.color.hex-value.scss"
 			],
 			"settings": {
-				"foreground": "#E8BF6A"
+				"foreground": "#6897BB"
 			}
 		}
 	]
