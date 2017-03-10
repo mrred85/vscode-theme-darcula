@@ -389,8 +389,6 @@
 		{
 			"name": "Function declarations",
 			"scope": [
-				"entity.name.function",
-				"java.class.entity.name.function",
 				"support.function",
 				"support.function.any-method",
 				"support.function.git-rebase"
@@ -401,7 +399,11 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": "meta.function-call.object",
+			"scope": [
+				"entity.name.function",
+				"java.class.entity.name.function",
+				"meta.function-call.object"
+			],
 			"settings": {
 				"foreground": "#FFC66D"
 			}
