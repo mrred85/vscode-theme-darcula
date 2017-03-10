@@ -74,7 +74,8 @@
 			"scope": [
 				"constant.other",
 				"support.constant.core",
-				"support.constant.ext"
+				"support.constant.ext",
+				"support.constant.std"
 			],
 			"settings": {
 				"fontStyle": "italic",
