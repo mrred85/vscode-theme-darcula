@@ -322,14 +322,13 @@
 			}
 		},
 		{
-			"scope": "keyword",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
-			}
-		},
-		{
-			"scope": "keyword.control",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.logical"
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -342,30 +341,10 @@
 			}
 		},
 		{
-			"scope": [
-				"keyword.operator.new",
-				"keyword.operator.expression"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"scope": "keyword.other.unit",
 			"settings": {
 				"fontStyle": "none",
 				"foreground": "#A5C261"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.section.embedded.begin.metatag.php",
-				"punctuation.section.embedded.end.metatag.php"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -405,7 +384,10 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": "support.function.construct",
+			"scope": [
+				"support.function.construct",
+				"support.function.builtin.python"
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -519,6 +501,7 @@
 				"constant.numeric.color.hex-value.scss punctuation.definition"
 			],
 			"settings": {
+				"fontStyle": "none",
 				"foreground": "#A5C261"
 			}
 		},
@@ -531,6 +514,7 @@
 				"support.type.property-name.scss"
 			],
 			"settings": {
+				"fontStyle": "none",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -550,6 +534,17 @@
 			}
 		},
 		{
+			"name": "PHP tag <?php",
+			"scope": [
+				"punctuation.section.embedded.begin.metatag.php",
+				"punctuation.section.embedded.end.metatag.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
+			}
+		},
+		{
 			"name": "Python variables",
 			"scope": [
 				"variable.parameter.function-call.python"
@@ -566,6 +561,17 @@
 			],
 			"settings": {
 				"foreground": "#a5c44f"
+			}
+		},
+		{
+			"name": "Python classes and functions",
+			"scope": [
+				"entity.name.type.class.python",
+				"entity.name.function.python"
+			],
+			"settings": {
+				"fontStyle":"bold",
+				"foreground": "#A9B7C6"
 			}
 		}
 	]
