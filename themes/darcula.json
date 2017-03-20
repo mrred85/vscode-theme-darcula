@@ -10,10 +10,7 @@
 				"selection": "#214283",
 				"invisibles": "#3B3A32",
 				"guide": "#4D4D4D",
-				// "hoverHighlight": "#414352",
-				// "findRangeHighlight": "#d6e4fe",
-				// "findMatchHighlight": "#986801",
-				// "currentFindMatchHighlight": "#d6e4fe",
+				"hoverHighlight": "#3A3A3A",
 				"activeLinkForeground": "#287BDE",
 				"gotoDefinitionLinkForeground": "#287BDE"
 			}
@@ -261,7 +258,8 @@
 		{
 			"scope": "meta.diff.header",
 			"settings": {
-				"foreground": "#c678dd" // @todo
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
 			}
 		},
 		{
