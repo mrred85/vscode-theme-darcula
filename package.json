@@ -3,7 +3,7 @@
 	"displayName": "Darcula",
 	"description": "Darcula Theme for VSCode",
 	"categories": [ "Themes" ],
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "Victor Rosu",
 	"engines": { "vscode": "*" },
 	"icon": "icon.svg",
