@@ -58,7 +58,7 @@
 		"panelTitle.activeForeground": "#BBBBBB",
 		"panelTitle.inactiveForeground": "#606366",
 		"notification.background": "#323232",
-		"notification.foreground": "#BBBBBB",
+		"notification.foreground": "#C9C9C9",
 		"debugToolBar.background": "#323232",
 		"pickerGroup.border": "#439EB8",
 		"pickerGroup.foreground": "#BBBBBB",
