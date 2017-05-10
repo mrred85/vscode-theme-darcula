@@ -413,7 +413,7 @@
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "normal",
 				"foreground": "#A5C261"
 			}
 		},
@@ -500,16 +500,19 @@
 				"meta.definition.variable.js",
 				"variable.other.readwrite.js",
 				"variable.other.object.js",
-				"variable.parameter.js"
+				"variable.parameter.js",
+				"support.constant.math.js"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
 		{
 			"name": "Types declaration and references",
 			"scope": [
-				"entity.other.class"
+				"entity.other.class",
+				"support.function.math.js"
 			],
 			"settings": {
 				"foreground": "#E8BF6A"
@@ -573,7 +576,7 @@
 				"constant.numeric.color.hex-value.scss punctuation.definition"
 			],
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "normal",
 				"foreground": "#A5C261"
 			}
 		},
@@ -585,7 +588,7 @@
 				"support.type.property-name.scss"
 			],
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -599,7 +602,7 @@
 				"meta.property-value.scss variable"
 			],
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "normal",
 				"foreground": "#6897BB"
 			}
 		},
