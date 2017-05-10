@@ -127,7 +127,8 @@
 		},
 		{
 			"scope": [
-				"comment.block keyword"
+				"comment.block keyword",
+				"comment.block storage.type.class.jsdoc"
 			],
 			"settings": {
 				"fontStyle": "bold italic",
@@ -190,7 +191,6 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"meta.property-value.css support.function",
-
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.scss",
 				"meta.property-list.scss support.function",
@@ -369,7 +369,6 @@
 			"scope": [
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
-
 				"punctuation.terminator",
 				"punctuation.separator.list.comma",
 				"punctuation.separator.delimiter"
@@ -480,12 +479,10 @@
 				"support.type",
 				"entity.name.type",
 				"entity.name.class",
-
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
 				"storage.type.variable.cs",
-
 				"storage.type.annotation.java",
 				"storage.type.generic.java",
 				"storage.type.java",
@@ -493,14 +490,17 @@
 				"storage.type.primitive.array.java",
 				"storage.type.primitive.java",
 				"storage.type.token.java",
-
 				"storage.type.groovy",
 				"storage.type.annotation.groovy",
 				"storage.type.parameters.groovy",
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+				"storage.type.primitive.groovy",
+				"meta.definition.variable.js",
+				"variable.other.readwrite.js",
+				"variable.other.object.js",
+				"variable.parameter.js"
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -525,7 +525,8 @@
 				"support.constant.dom",
 				"support.constant.json",
 				"entity.name.tag.css",
-				"entity.name.tag.scss"
+				"entity.name.tag.scss",
+				"variable.language.this.js"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -537,7 +538,8 @@
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
-				"support.variable"
+				"support.variable",
+				"variable.other.property.js"
 			],
 			"settings": {
 				"foreground": "#9876AA"
@@ -567,7 +569,6 @@
 			"scope": [
 				"meta.property-value.css support",
 				"constant.other.color.rgb-value.hex.css punctuation.definition",
-
 				"meta.property-value.scss support",
 				"constant.numeric.color.hex-value.scss punctuation.definition"
 			],
@@ -581,7 +582,6 @@
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
-
 				"support.type.property-name.scss"
 			],
 			"settings": {
@@ -594,7 +594,6 @@
 			"scope": [
 				"constant.other.color.hex-value.css",
 				"constant.other.color.rgb-value.hex.css",
-
 				"constant.numeric.color.hex-value.scss",
 				"meta.at-rule.include.scss variable",
 				"meta.property-value.scss variable"
@@ -641,7 +640,7 @@
 				"entity.name.function.python"
 			],
 			"settings": {
-				"fontStyle":"bold",
+				"fontStyle": "bold",
 				"foreground": "#A9B7C6"
 			}
 		}
