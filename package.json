@@ -2,11 +2,36 @@
 	"name": "theme-darcula",
 	"displayName": "Darcula",
 	"description": "Darcula Theme for VSCode",
-	"categories": [ "Themes" ],
-	"version": "1.1.0",
-	"publisher": "Victor Rosu",
-	"engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Darcula",
+		"JetBrains Darcula",
+		"Darcula Theme",
+		"IntelliJ Darcula"
+	],
+	"version": "1.1.2",
+	"author": {
+		"name": "Victor Rosu",
+		"url": "https://github.com/mrred85"
+	},
+	"publisher": "mrred85",
+	"maintainers": [
+		"Victor Rosu (mrred85)"
+	],
+	"engines": {
+		"vscode": "^1.12.1"
+	},
 	"icon": "icon.svg",
+	"homepage": "https://github.com/mrred85/vscode-theme-darcula",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrred85/vscode-theme-darcula"
+	},
+	"bugs": {
+		"url": "https://github.com/mrred85/vscode-theme-darcula/issues"
+	},
 	"contributes": {
 		"themes": [
 			{
