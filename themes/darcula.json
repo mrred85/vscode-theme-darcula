@@ -115,10 +115,12 @@
 		},
 		{
 			"scope": [
-				"comment",
-				"comment.block.preprocessor",
 				"comment.documentation",
-				"comment.block.documentation"
+				"comment.block",
+				"comment.block.preprocessor",
+				"comment.block.documentation",
+				"comment.block entity.name.type.instance.jsdoc",
+				"comment.block variable.other.jsdoc"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -190,20 +192,13 @@
 				"entity.other.attribute-name.parent-selector.css",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.id.css",
 				"meta.property-value.css support.function",
+				"source.css.less entity.other.attribute-name.id",
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.scss",
 				"meta.property-list.scss support.function",
 				"entity.name.function.scss"
-			],
-			"settings": {
-				"foreground": "#E8BF6A"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name.id.css",
-				"source.css.less entity.other.attribute-name.id"
 			],
 			"settings": {
 				"foreground": "#E8BF6A"
@@ -501,7 +496,12 @@
 				"variable.other.readwrite.js",
 				"variable.other.object.js",
 				"variable.parameter.js",
-				"support.constant.math.js"
+				"support.constant.math.js",
+				"meta.definition.variable.ts",
+				"variable.other.readwrite.ts",
+				"variable.other.object.ts",
+				"variable.parameter.ts",
+				"support.constant.math.ts"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -512,7 +512,10 @@
 			"name": "Types declaration and references",
 			"scope": [
 				"entity.other.class",
-				"support.function.math.js"
+				"support.function.math.js",
+				"support.function.dom.js",
+				"support.function.math.ts",
+				"support.function.dom.ts"
 			],
 			"settings": {
 				"foreground": "#E8BF6A"
@@ -529,7 +532,8 @@
 				"support.constant.json",
 				"entity.name.tag.css",
 				"entity.name.tag.scss",
-				"variable.language.this.js"
+				"variable.language.this.js",
+				"variable.language.this.ts"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -542,7 +546,9 @@
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
-				"variable.other.property.js"
+				"variable.other.property.php",
+				"variable.other.property.js",
+				"variable.other.property.ts"
 			],
 			"settings": {
 				"foreground": "#9876AA"
