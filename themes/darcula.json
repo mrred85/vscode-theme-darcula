@@ -138,7 +138,10 @@
 			}
 		},
 		{
-			"scope": "constant.language",
+			"scope": [
+				"constant.language",
+				"constant.character.escape"
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -347,26 +350,18 @@
 			"scope": [
 				"string",
 				"string.tag",
-				"string.value"
+				"string.value",
+				"string.regexp"
 			],
 			"settings": {
 				"foreground": "#6A8759"
 			}
 		},
 		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"name": "JavaScript string interpolation ${}",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end",
-				"punctuation.terminator",
-				"punctuation.separator.list.comma",
-				"punctuation.separator.delimiter"
+				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -441,7 +436,8 @@
 			"scope": [
 				"entity.name.function",
 				"java.class.entity.name.function",
-				"meta.function-call.object"
+				"meta.function-call.object",
+				"entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#FFC66D"
@@ -460,7 +456,14 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": "meta.function-call.static",
+			"scope": [
+				"meta.function-call.static",
+				"support.function.math.js",
+				"support.function.dom.js",
+				"support.function.math.ts",
+				"support.function.dom.ts",
+				"punctuation.definition.group.regexp"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FFC66D"
@@ -474,6 +477,7 @@
 				"support.type",
 				"entity.name.type",
 				"entity.name.class",
+				"entity.other.inherited-class",
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
@@ -501,24 +505,12 @@
 				"variable.other.readwrite.ts",
 				"variable.other.object.ts",
 				"variable.parameter.ts",
-				"support.constant.math.ts"
+				"support.constant.math.ts",
+				"punctuation.separator.key-value.js"
 			],
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"name": "Types declaration and references",
-			"scope": [
-				"entity.other.class",
-				"support.function.math.js",
-				"support.function.dom.js",
-				"support.function.math.ts",
-				"support.function.dom.ts"
-			],
-			"settings": {
-				"foreground": "#E8BF6A"
 			}
 		},
 		{
@@ -557,7 +549,15 @@
 		{
 			"name": "Variable other property: var->Property",
 			"scope": [
-				"variable.other.property"
+				"variable.other.property",
+				"punctuation.terminator",
+				"punctuation.separator.list.comma",
+				"punctuation.separator.delimiter",
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.separator.array.json",
+				"punctuation.separator.comma.js",
+				"punctuation.separator.parameter.js"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -591,7 +591,8 @@
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
-				"support.type.property-name.scss"
+				"support.type.property-name.scss",
+				"support.type.property-name.media.css"
 			],
 			"settings": {
 				"fontStyle": "normal",
