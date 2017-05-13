@@ -437,7 +437,8 @@
 				"entity.name.function",
 				"java.class.entity.name.function",
 				"meta.function-call.object",
-				"entity.name.function.js"
+				"entity.name.function.js",
+				"entity.name.function.ts"
 			],
 			"settings": {
 				"foreground": "#FFC66D"
@@ -501,12 +502,13 @@
 				"variable.other.object.js",
 				"variable.parameter.js",
 				"support.constant.math.js",
+				"punctuation.separator.key-value.js",
 				"meta.definition.variable.ts",
 				"variable.other.readwrite.ts",
 				"variable.other.object.ts",
 				"variable.parameter.ts",
 				"support.constant.math.ts",
-				"punctuation.separator.key-value.js"
+				"punctuation.separator.key-value.ts"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -557,7 +559,9 @@
 				"punctuation.separator.dictionary.pair.json",
 				"punctuation.separator.array.json",
 				"punctuation.separator.comma.js",
-				"punctuation.separator.parameter.js"
+				"punctuation.separator.parameter.js",
+				"punctuation.separator.comma.ts",
+				"punctuation.separator.parameter.ts"
 			],
 			"settings": {
 				"foreground": "#CC7832"
