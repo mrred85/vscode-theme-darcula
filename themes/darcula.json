@@ -107,7 +107,10 @@
 			}
 		},
 		{
-			"scope": "comment.line",
+			"scope": [
+				"comment.line",
+				"comment.block"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#808080"
@@ -115,12 +118,10 @@
 		},
 		{
 			"scope": [
-				"comment.documentation",
-				"comment.block",
 				"comment.block.preprocessor",
 				"comment.block.documentation",
-				"comment.block entity.name.type.instance.jsdoc",
-				"comment.block variable.other.jsdoc"
+				"comment.block.documentation entity.name.type.instance",
+				"comment.block.documentation variable.other"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -129,12 +130,22 @@
 		},
 		{
 			"scope": [
-				"comment.block keyword",
-				"comment.block storage.type.class.jsdoc"
+				"comment.line keyword.codetag.notation",
+				"comment.block.documentation keyword.other",
+				"comment.block.documentation storage.type.class"
 			],
 			"settings": {
 				"fontStyle": "bold italic",
 				"foreground": "#77B767"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.scss",
+				"comment.block.scss"
+			],
+			"settings": {
+				"foreground": "#BC9455"
 			}
 		},
 		{
