@@ -112,7 +112,6 @@
 				"comment.block"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#808080"
 			}
 		},
@@ -645,7 +644,7 @@
 				"variable.parameter.function-call.python"
 			],
 			"settings": {
-				"foreground": "#b64213"
+				"foreground": "#B64213"
 			}
 		},
 		{
@@ -655,7 +654,7 @@
 				"string.quoted.multi.python"
 			],
 			"settings": {
-				"foreground": "#a5c44f"
+				"foreground": "#A5C44F"
 			}
 		},
 		{
