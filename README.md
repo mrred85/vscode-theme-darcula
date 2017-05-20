@@ -34,9 +34,11 @@ If you use *Indenticator* plugin set below values in user settings, `settings.js
 
 If you use *TODO Highlight* set below values in user settings, `settings.json` to integrate `TODO:`, `@todo:` and `@TODO:` background colors with this theme.
 This setting remove case sensitive check for a better integration with existing code syntaxes.
+To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 
 ```JSON
 "todohighlight.isCaseSensitive": false,
+"todohighlight.highlightWholeLine": false,
 "todohighlight.keywords": [
     {"text": "TODO:", "color": "#FFF", "backgroundColor": "#629755", "overviewRulerColor": "#629755"},
     {"text": "@todo:", "color": "#FFF", "backgroundColor": "#629755", "overviewRulerColor": "#629755"},
