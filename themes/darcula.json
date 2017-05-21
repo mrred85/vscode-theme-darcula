@@ -11,6 +11,7 @@
 		"editor.foreground": "#A9B7C6",
 		"editor.selectionBackground": "#214283",
 		"editor.selectionHighlightBackground": "#3A3A3A",
+		"editor.inactiveSelectionBackground": "#214283",
 		"editor.lineHighlightBackground": "#323232",
 		"editor.lineHighlightBorder": "#323232",
 		"editor.findMatchBackground": "#214283",
@@ -76,10 +77,10 @@
 		"statusBar.foreground": "#C9C9C9",
 		"statusBarItem.hoverBackground": "#4B6EAF",
 		"statusBarItem.activeBackground": "#CC7832",
-		"titleBar.activeBackground": "#DDDDDD",
-		"titleBar.activeForeground": "#2B2B2B",
-		"titleBar.inactiveBackground": "#F6F6F6",
-		"titleBar.inactiveForeground": "#B2B2B2"
+		"titleBar.activeBackground": "#3C3F41",
+		"titleBar.activeForeground": "#C9C9C9",
+		"titleBar.inactiveBackground": "#3C3F41",
+		"titleBar.inactiveForeground": "#8C8C8C"
 	},
 	"tokenColors": [
 		{
