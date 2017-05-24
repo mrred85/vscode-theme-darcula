@@ -14,8 +14,8 @@
 		"editor.inactiveSelectionBackground": "#214283",
 		"editor.lineHighlightBackground": "#323232",
 		"editor.lineHighlightBorder": "#323232",
-		"editor.findMatchBackground": "#32593D",
-		"editor.findMatchHighlightBackground": "#40332B",
+		"editor.findMatchBackground": "#155221",
+		"editor.findMatchHighlightBackground": "#532B2E",
 		"editor.findRangeHighlightBackground": "#214283",
 		"editorCursor.foreground": "#BBBBBB",
 		"editorWhitespace.foreground": "#3B3A32",
@@ -221,7 +221,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#BC3F3C"
 			}
 		},
 		{
@@ -260,7 +260,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#BC3F3C"
 			}
 		},
 		{
@@ -572,7 +572,9 @@
 				"punctuation.separator.comma.js",
 				"punctuation.separator.parameter.js",
 				"punctuation.separator.comma.ts",
-				"punctuation.separator.parameter.ts"
+				"punctuation.separator.parameter.ts",
+				"punctuation.separator.parameters.python",
+				"punctuation.separator.element.python"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -645,7 +647,7 @@
 				"variable.parameter.function-call.python"
 			],
 			"settings": {
-				"foreground": "#B64213"
+				"foreground": "#B3481E"
 			}
 		},
 		{
