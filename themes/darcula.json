@@ -104,6 +104,7 @@
 		{
 			"scope": "header",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#9876AA"
 			}
 		},
@@ -113,6 +114,7 @@
 				"comment.block"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#808080"
 			}
 		},
@@ -146,6 +148,7 @@
 				"comment.block.scss"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#BC9455"
 			}
 		},
@@ -160,25 +163,23 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.other",
-				"support.constant.core",
-				"support.constant.ext",
-				"support.constant.std"
-			],
+			"scope": "constant.other",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
 		{
 			"scope": "constant.numeric",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6897BB"
 			}
 		},
 		{
 			"scope": "constant.regexp",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6A8759"
 			}
 		},
@@ -189,12 +190,14 @@
 				"entity.tag.apacheconf"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#FFC66D"
 			}
 		},
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -218,12 +221,14 @@
 				"punctuation.section.function.scss"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#E8BF6A"
 			}
 		},
 		{
 			"scope": "invalid",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#BC3F3C"
 			}
 		},
@@ -257,42 +262,43 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#CC7832"
 			}
 		},
 		{
 			"scope": "markup.deleted",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#BC3F3C"
 			}
 		},
 		{
 			"scope": "markup.changed",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#D0D0FF"
 			}
 		},
 		{
-			"scope": "beginning.punctuation.definition.quote.markdown",
+			"scope": [
+				"beginning.punctuation.definition.quote.markdown",
+				"beginning.punctuation.definition.list.markdown"
+			],
 			"settings": {
-				"foreground": "#6A8759"
-			}
-		},
-		{
-			"scope": "beginning.punctuation.definition.list.markdown",
-			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6A8759"
 			}
 		},
 		{
 			"scope": [
-				// "punctuation.definition.metadata.markdown",
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
 				"variable.parameter.url.scss",
 				"variable.parameter.url.css"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#287BDE"
 			}
 		},
@@ -302,18 +308,21 @@
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#FFC66D"
 			}
 		},
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
 		{
 			"scope": "meta.selector",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -321,24 +330,28 @@
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#E8BF6A"
 			}
 		},
 		{
 			"scope": "meta.preprocessor",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6D9CBE"
 			}
 		},
 		{
 			"scope": "meta.preprocessor.string",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A5C261"
 			}
 		},
 		{
 			"scope": "meta.preprocessor.numeric",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6897BB"
 			}
 		},
@@ -370,6 +383,7 @@
 				"string.regexp"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#6A8759"
 			}
 		},
@@ -380,12 +394,14 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#CC7832"
 			}
 		},
 		{
 			"scope": "support.type.property-name",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#9876AA"
 			}
 		},
@@ -394,8 +410,7 @@
 				"keyword",
 				"keyword.control",
 				"keyword.operator.new",
-				"keyword.operator.expression",
-				"keyword.operator.logical"
+				"keyword.operator.expression"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -405,6 +420,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -418,6 +434,7 @@
 		{
 			"scope": "constant.sha.git-rebase",
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#D0D0FF"
 			}
 		},
@@ -428,6 +445,7 @@
 				"variable.parameter.function"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#94558D"
 			}
 		},
@@ -439,6 +457,7 @@
 				"support.function.git-rebase"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -454,6 +473,7 @@
 				"support.function.console.ts"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#FFC66D"
 			}
 		},
@@ -489,6 +509,9 @@
 				"meta.return-type",
 				"support.class",
 				"support.type",
+				"support.constant.core",
+				"support.constant.ext",
+				"support.constant.std",
 				"entity.name.type",
 				"entity.name.class",
 				"entity.other.inherited-class",
@@ -548,12 +571,20 @@
 			}
 		},
 		{
+			"scope": [
+				"support.constant.ext.php"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#9876AA"
+			}
+		},
+		{
 			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
-				"variable.other.property.php",
 				"meta.string-contents variable.other.php punctuation.definition.variable.php",
 				"variable.other.property.js",
 				"support.class.console.js",
@@ -562,6 +593,7 @@
 				"string.quoted.other.backtick.sql"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#9876AA"
 			}
 		},
@@ -583,6 +615,7 @@
 				"punctuation.separator.element.python"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#CC7832"
 			}
 		},
@@ -593,6 +626,7 @@
 				"meta.object-literal.key entity.name.function"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#9876AA"
 			}
 		},
@@ -685,6 +719,7 @@
 				"variable.parameter.function-call.python"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#AA4926"
 			}
 		},
@@ -695,6 +730,7 @@
 				"string.quoted.multi.python"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#A5C44F"
 			}
 		},
@@ -726,15 +762,17 @@
 				"support.function.magic.python"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#B200B2"
 			}
 		},
 		{
-			"name": "Python deco",
+			"name": "Python decorator",
 			"scope": [
 				"entity.name.function.decorator.python"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#BBB529"
 			}
 		}
