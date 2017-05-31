@@ -121,7 +121,8 @@
 				"comment.block.preprocessor",
 				"comment.block.documentation",
 				"comment.block.documentation entity.name.type.instance",
-				"comment.block.documentation variable.other"
+				"comment.block.documentation variable.other",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -166,8 +167,7 @@
 				"support.constant.std"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#9876AA"
+				"foreground": "#A9B7C6"
 			}
 		},
 		{
@@ -418,9 +418,12 @@
 		},
 		{
 			"name": "this.self",
-			"scope": "variable.language",
+			"scope": [
+				"variable.language",
+				"variable.parameter.function"
+			],
 			"settings": {
-				"foreground": "#9876AA"
+				"foreground": "#94558D"
 			}
 		},
 		{
@@ -647,7 +650,7 @@
 				"variable.parameter.function-call.python"
 			],
 			"settings": {
-				"foreground": "#B3481E"
+				"foreground": "#AA4926"
 			}
 		},
 		{
@@ -667,7 +670,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#0F9795"
+				"foreground": "#008080"
 			}
 		},
 		{
@@ -679,6 +682,25 @@
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "Python vars",
+			"scope": [
+				"support.variable.magic.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#B200B2"
+			}
+		},
+		{
+			"name": "Python deco",
+			"scope": [
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#BBB529"
 			}
 		}
 	]
