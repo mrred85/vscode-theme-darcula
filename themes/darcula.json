@@ -375,15 +375,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#CC7832"
-			}
-		},
-		{
-			"name": "JavaScript string interpolation ${var}",
-			"scope": "meta.template.expression.variable",
-			"settings": {
-				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -449,7 +441,9 @@
 				"java.class.entity.name.function",
 				"meta.function-call.object",
 				"entity.name.function.js",
-				"entity.name.function.ts"
+				"support.function.console.js",
+				"entity.name.function.ts",
+				"support.function.console.ts"
 			],
 			"settings": {
 				"foreground": "#FFC66D"
@@ -490,6 +484,7 @@
 				"entity.name.type",
 				"entity.name.class",
 				"entity.other.inherited-class",
+				"meta.string-contents punctuation.definition",
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
@@ -519,7 +514,8 @@
 				"variable.other.object.ts",
 				"variable.parameter.ts",
 				"support.constant.math.ts",
-				"punctuation.separator.key-value.ts"
+				"punctuation.separator.key-value.ts",
+				"entity.name.function.sql"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -552,8 +548,12 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"variable.other.property.php",
+				"meta.string-contents variable.other.php punctuation.definition.variable.php",
 				"variable.other.property.js",
-				"variable.other.property.ts"
+				"support.class.console.js",
+				"variable.other.property.ts",
+				"support.class.console.ts",
+				"string.quoted.other.backtick.sql"
 			],
 			"settings": {
 				"foreground": "#9876AA"
@@ -658,6 +658,16 @@
 			],
 			"settings": {
 				"foreground": "#A5C44F"
+			}
+		},
+		{
+			"name": "Python strings storage",
+			"scope": [
+				"storage.type.string.python"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#0F9795"
 			}
 		},
 		{
