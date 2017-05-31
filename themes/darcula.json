@@ -207,12 +207,15 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.id.css",
+				"meta.property-list.css meta.property-value.css",
 				"meta.property-value.css support.function",
 				"source.css.less entity.other.attribute-name.id",
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.scss",
+				"meta.property-list.scss meta.property-value.scss",
 				"meta.property-list.scss support.function",
-				"entity.name.function.scss"
+				"entity.name.function.scss",
+				"punctuation.section.function.scss"
 			],
 			"settings": {
 				"foreground": "#E8BF6A"
@@ -285,7 +288,9 @@
 			"scope": [
 				// "punctuation.definition.metadata.markdown",
 				"string.other.link.title.markdown",
-				"string.other.link.description.markdown"
+				"string.other.link.description.markdown",
+				"variable.parameter.url.scss",
+				"variable.parameter.url.css"
 			],
 			"settings": {
 				"foreground": "#287BDE"
@@ -534,8 +539,6 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.name.tag.css",
-				"entity.name.tag.scss",
 				"variable.language.this.js",
 				"variable.language.this.ts"
 			],
@@ -612,7 +615,10 @@
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
 				"support.type.property-name.scss",
-				"support.type.property-name.media.css"
+				"support.type.property-name.media.css",
+				"punctuation.definition.entity.css",
+				"punctuation.separator.key-value.scss",
+				"punctuation.separator.key-value.css"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -631,6 +637,35 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#6897BB"
+			}
+		},
+		{
+			"name": "CSS / SCSS / HTML CSS rules",
+			"scope": [
+				"entity.name.tag.scss",
+				"keyword.control.at-rule.fontface.scss",
+				"keyword.control.at-rule.font-face.scss",
+				"keyword.control.at-rule.media.scss",
+				"keyword.control.at-rule.include.scss",
+				"keyword.control.at-rule.import.scss",
+				"entity.name.tag.css",
+				"keyword.control.at-rule.font-face.css",
+				"keyword.control.at-rule.include.css",
+				"keyword.control.at-rule.import.css"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "CSS / SCSS / HTML CSS rules",
+			"scope": [
+				"keyword.control.at-rule.mixin.scss"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#D0D0FF"
 			}
 		},
 		{
