@@ -40,10 +40,8 @@
 		"activityBar.background": "#3C3F41",
 		"activityBar.dropBackground": "#3A3A3A",
 		"activityBar.foreground": "#BBBBBB",
-		"activityBar.border": "#282828",
 
 		"sideBar.background": "#323232",
-		"sideBar.border": "#282828",
 		"sideBarSectionHeader.background": "#424D5F",
 		"sideBarTitle.foreground": "#8C8C8C",
 
@@ -100,6 +98,13 @@
 		"editorSuggestWidget.selectedBackground": "#0151A1",
 		"editorHoverWidget.background": "#3C3F41",
 		"editorHoverWidget.border": "#5B5D5F",
+
+		"peekView.border": "#5B5D5F",
+		"peekViewEditor.background": "#2B2B2B",
+		"peekViewResult.background": "#323232",
+		"peekViewTitle.background": "#3C3F41",
+		"peekViewTitleDescription.foreground": "#8C8C8C",
+		"peekViewTitleLabel.foreground": "#CC7832",
 
 		"panel.background": "#2B2B2B",
 		"panel.border": "#4D4D4D",
