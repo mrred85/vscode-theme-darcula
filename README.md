@@ -8,6 +8,7 @@ Port of IntelliJ Darcula theme for VS Code.
 - Apache
 - PHP
 - Python
+- Ruby
 - Java
 - JavaScript
 - TypeScript

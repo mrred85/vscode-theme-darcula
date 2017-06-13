@@ -263,6 +263,7 @@
 				"entity.other.attribute-name.id.css",
 				"source.css support.function",
 				"source.css punctuation.section.function",
+				"source.css punctuation.definition.pseudo-class",
 				"source.css entity.name.function"
 			],
 			"settings": {
@@ -657,7 +658,9 @@
 				"punctuation.separator.comma.ts",
 				"punctuation.separator.parameter.ts",
 				"punctuation.separator.parameters.python",
-				"punctuation.separator.element.python"
+				"punctuation.separator.element.python",
+				"punctuation.separator.arguments.python",
+				"punctuation.separator.object.ruby"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -678,10 +681,9 @@
 		{
 			"name": "CSS / SCSS / HTML CSS support",
 			"scope": [
-				"meta.property-value.css support",
-				"constant.other.color.rgb-value.hex.css punctuation.definition",
-				"meta.property-value.scss support",
-				"constant.numeric.color.hex-value.scss punctuation.definition"
+				"source.css support",
+				"source.css.scss constant.other",
+				"source.css punctuation.definition.constant"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -707,11 +709,13 @@
 		{
 			"name": "CSS / SCSS / HTML CSS RGB-HEX values",
 			"scope": [
-				"constant.other.color.hex-value.css",
-				"constant.other.color.rgb-value.hex.css",
-				"constant.numeric.color.hex-value.scss",
+				"source.css constant.numeric",
+				"source.css constant.other.color",
 				"source.css.scss meta.at-rule variable",
-				"source.css.scss meta.property-value.scss variable"
+				"source.css.scss meta.property-value.scss variable",
+				"punctuation.definition.constant.ruby",
+				"constant.other.symbol.ruby",
+				"constant.other.symbol.hashkey.ruby"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -813,6 +817,38 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "Ruby specials",
+			"scope": [
+				"support.class.ruby",
+				"keyword.other.special-method.ruby"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#BC3F3C"
+			}
+		},
+		{
+			"name": "Ruby variables",
+			"scope": [
+				"variable.other.readwrite.instance.ruby"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#D0D0FF"
+			}
+		},
+		{
+			"name": "Ruby keywords",
+			"scope": [
+				"keyword.operator.assignment.ruby",
+				"keyword.operator.other.ruby"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#CC7832"
 			}
 		}
 	]
