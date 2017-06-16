@@ -217,7 +217,7 @@
 			"scope": "constant.other",
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#A9B7C6"
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 			"scope": "punctuation.definition.tag",
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#E8BF6A"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -511,7 +511,6 @@
 			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
-				"java.class.entity.name.function",
 				"meta.function-call.object",
 				"entity.name.function.js",
 				"support.function.console.js",
@@ -537,12 +536,13 @@
 		{
 			"name": "Function declarations",
 			"scope": [
-				"meta.function-call.static",
+				"punctuation.definition.group.regexp",
+				"meta.function-call.static.php",
+				"constant.other.class.php",
 				"support.function.math.js",
 				"support.function.dom.js",
 				"support.function.math.ts",
-				"support.function.dom.ts",
-				"punctuation.definition.group.regexp"
+				"support.function.dom.ts"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -558,15 +558,17 @@
 				"support.constant.core",
 				"support.constant.ext",
 				"support.constant.std",
+				"support.constant.math",
+				"constant.other.class",
 				"entity.name.type",
 				"entity.name.class",
 				"entity.other.inherited-class",
 				"meta.string-contents punctuation.definition",
+				"meta.function-call.static",
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
 				"storage.type.variable.cs",
-				"storage.type.annotation.java",
 				"storage.type.generic.java",
 				"storage.type.java",
 				"storage.type.object.array.java",
@@ -574,7 +576,6 @@
 				"storage.type.primitive.java",
 				"storage.type.token.java",
 				"storage.type.groovy",
-				"storage.type.annotation.groovy",
 				"storage.type.parameters.groovy",
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
@@ -584,13 +585,11 @@
 				"variable.other.readwrite.js",
 				"variable.other.object.js",
 				"variable.parameter.js",
-				"support.constant.math.js",
 				"punctuation.separator.key-value.js",
 				"meta.definition.variable.ts",
 				"variable.other.readwrite.ts",
 				"variable.other.object.ts",
 				"variable.parameter.ts",
-				"support.constant.math.ts",
 				"punctuation.separator.key-value.ts",
 				"entity.name.function.sql"
 			],
@@ -600,12 +599,23 @@
 			}
 		},
 		{
+			"name": "Function decorators",
+			"scope": [
+				"storage.type.annotation.java",
+				"storage.type.annotation.groovy",
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#BBB529"
+			}
+		},
+		{
 			"name": "Types declaration and references, TS grammar specific",
 			"scope": [
 				"meta.return.type",
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
-				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
 				"variable.language.this.js",
@@ -618,7 +628,9 @@
 		},
 		{
 			"scope": [
-				"support.constant.ext.php"
+				"support.constant.core.php",
+				"support.constant.ext.php",
+				"support.constant.std.php"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -644,7 +656,7 @@
 			}
 		},
 		{
-			"name": "Variable other property: var->Property",
+			"name": "Variable other property: var->Property and separators",
 			"scope": [
 				"variable.other.property",
 				"punctuation.terminator",
@@ -807,16 +819,6 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#B200B2"
-			}
-		},
-		{
-			"name": "Python decorator",
-			"scope": [
-				"entity.name.function.decorator.python"
-			],
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#BBB529"
 			}
 		},
 		{
