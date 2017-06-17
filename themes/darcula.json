@@ -235,10 +235,11 @@
 			}
 		},
 		{
-			"name": "TAG elements",
+			"name": "HTML / XML Tags",
 			"scope": [
 				"entity.name.tag",
-				"entity.tag.apacheconf"
+				"entity.tag.apacheconf",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -253,7 +254,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS attribute, functions",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
@@ -333,7 +334,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#6A8759"
+				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -362,7 +363,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#A9B7C6"
+				"foreground": "#6A8759"
 			}
 		},
 		{
@@ -373,15 +374,10 @@
 			}
 		},
 		{
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#FFC66D"
-			}
-		},
-		{
-			"scope": "meta.preprocessor",
+			"scope": [
+				"meta.preprocessor",
+				"meta.preprocessor.numeric"
+			],
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#6D9CBE"
@@ -395,21 +391,8 @@
 			}
 		},
 		{
-			"scope": "meta.preprocessor.numeric",
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#6897BB"
-			}
-		},
-		{
-			"scope": "meta.diff.header",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"scope": [
+				"meta.diff.header",
 				"storage",
 				"storage.type",
 				"storage.modifier",
@@ -434,7 +417,7 @@
 			}
 		},
 		{
-			"name": "JavaScript string interpolation ${}",
+			"name": "String interpolation ${}",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end"
@@ -496,7 +479,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"support.function",
 				"support.function.any-method",
@@ -508,7 +490,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call.object",
@@ -523,7 +504,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"support.function.construct",
 				"support.function.builtin.python"
@@ -534,7 +514,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"punctuation.definition.group.regexp",
 				"meta.function-call.static.php",
@@ -611,7 +590,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references, TS grammar specific",
+			"name": "JS / TS grammar specific. Language specifics",
 			"scope": [
 				"meta.return.type",
 				"meta.type.cast.expr",
@@ -638,7 +617,6 @@
 			}
 		},
 		{
-			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -656,7 +634,7 @@
 			}
 		},
 		{
-			"name": "Variable other property: var->Property and separators",
+			"name": "Separators. Variable other property: var->Property",
 			"scope": [
 				"variable.other.property",
 				"punctuation.terminator",
@@ -680,7 +658,6 @@
 			}
 		},
 		{
-			"name": "Object keys, TS grammar specific",
 			"scope": [
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function"
@@ -691,7 +668,6 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS support",
 			"scope": [
 				"source.css support",
 				"source.css.scss constant.other",
@@ -703,7 +679,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS property",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
@@ -719,7 +695,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS RGB-HEX values",
+			"name": "CSS / SCSS / HTML CSS RGB and HEX values",
 			"scope": [
 				"source.css constant.numeric",
 				"source.css constant.other.color",
@@ -735,7 +711,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS rules",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"source.css entity.name.tag",
 				"source.css keyword.control.at-rule",
@@ -747,7 +723,6 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS rules",
 			"scope": [
 				"source.css.scss keyword.control.at-rule.mixin.scss",
 				"source.css.scss meta.property-list.scss entity.name.function"
@@ -769,7 +744,7 @@
 			}
 		},
 		{
-			"name": "Python variables",
+			"name": "Python function parameters",
 			"scope": [
 				"variable.parameter.function-call.python"
 			],
@@ -790,7 +765,7 @@
 			}
 		},
 		{
-			"name": "Python strings storage",
+			"name": "Python strings types",
 			"scope": [
 				"storage.type.string.python"
 			],
@@ -811,7 +786,7 @@
 			}
 		},
 		{
-			"name": "Python vars",
+			"name": "Python variables",
 			"scope": [
 				"support.variable.magic.python",
 				"support.function.magic.python"
