@@ -622,6 +622,7 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"meta.string-contents variable.other.php punctuation.definition.variable.php",
+				"meta.function-call.invoke.php punctuation.definition.variable.php",
 				"variable.other.property.js",
 				"support.class.console.js",
 				"variable.other.property.ts",
