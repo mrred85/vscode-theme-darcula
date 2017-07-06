@@ -23,7 +23,7 @@
 	"engines": {
 		"vscode": "^1.13.0"
 	},
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"homepage": "https://github.com/mrred85/vscode-theme-darcula",
 	"repository": {
 		"type": "git",
