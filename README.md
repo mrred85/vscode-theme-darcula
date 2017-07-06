@@ -54,4 +54,18 @@ To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 ]
 ```
 
+### Git Lens plugin
+
+If you use *Git Lens* set below values in user settings, `settings.json` to integrate with this theme.
+
+```JSON
+"gitlens.theme.annotations.file.gutter.dark.backgroundColor": "rgba(169, 183, 198, 0.075)",
+"gitlens.theme.annotations.file.gutter.dark.foregroundColor": "rgb(169, 183, 198)",
+"gitlens.theme.annotations.file.gutter.dark.uncommittedForegroundColor": "rgba(104, 151, 187, 0.6)",
+"gitlens.theme.annotations.line.trailing.dark.backgroundColor": "rgb(75, 110, 175)",
+"gitlens.theme.annotations.line.trailing.dark.foregroundColor": "rgb(201, 201, 201)",
+"gitlens.theme.lineHighlight.dark.backgroundColor": "rgba(55, 71, 82, 0.6)",
+"gitlens.theme.lineHighlight.dark.overviewRulerColor": "rgba(55, 71, 82, 0.6)"
+```
+
 Enjoy ;)
