@@ -128,6 +128,18 @@
 
 		"debugToolBar.background": "#3C3F41",
 
+		"diffEditor.insertedTextBackground": "#29443699",
+		"diffEditor.removedTextBackground": "#45302B99",
+
+		"merge.commonContentBackground": "#484A4A99",
+		"merge.commonHeaderBackground": "#656E7699",
+		"merge.currentContentBackground": "#29443699",
+		"merge.currentHeaderBackground": "#44715299",
+		"editorOverviewRuler.currentContentForeground": "#447152",
+		"merge.incomingContentBackground": "#38557099",
+		"merge.incomingHeaderBackground": "#43698D99",
+		"editorOverviewRuler.incomingContentForeground": "#43698D",
+
 		"titleBar.activeBackground": "#3C3F41",
 		"titleBar.activeForeground": "#C9C9C9",
 		"titleBar.inactiveBackground": "#3C3F41",
@@ -609,7 +621,8 @@
 			"scope": [
 				"support.constant.core.php",
 				"support.constant.ext.php",
-				"support.constant.std.php"
+				"support.constant.std.php",
+				"constant.other.php"
 			],
 			"settings": {
 				"fontStyle": "italic",
