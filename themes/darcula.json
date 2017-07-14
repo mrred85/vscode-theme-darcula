@@ -142,6 +142,9 @@
 		"merge.incomingHeaderBackground": "#43698D99",
 		"editorOverviewRuler.incomingContentForeground": "#43698D",
 
+		"terminalCursor.foreground": "#BBBBBB",
+		"terminalCursor.background": "#2B2B2B",
+
 		"titleBar.activeBackground": "#3C3F41",
 		"titleBar.activeForeground": "#C9C9C9",
 		"titleBar.inactiveBackground": "#3C3F41",
