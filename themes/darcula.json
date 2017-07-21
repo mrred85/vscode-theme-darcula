@@ -512,8 +512,10 @@
 				"meta.function-call.object",
 				"entity.name.function.js",
 				"support.function.console.js",
+				"support.function.js",
 				"entity.name.function.ts",
-				"support.function.console.ts"
+				"support.function.console.ts",
+				"support.function.ts"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -559,7 +561,6 @@
 				"entity.name.type",
 				"entity.name.class",
 				"entity.other.inherited-class",
-				"meta.string-contents punctuation.definition",
 				"meta.function-call.static",
 				"storage.type.cs",
 				"storage.type.generic.cs",
@@ -587,7 +588,9 @@
 				"variable.other.object.ts",
 				"variable.parameter.ts",
 				"punctuation.separator.key-value.ts",
-				"entity.name.function.sql"
+				"entity.name.function.sql",
+				"source.php string.quoted.double.php punctuation.definition.variable.php",
+				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -639,7 +642,8 @@
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
-				"meta.string-contents variable.other.php punctuation.definition.variable.php",
+				"source.php string.quoted.double.php variable.other.php punctuation.definition.variable.php",
+				"source.php string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php",
 				"meta.function-call.invoke.php punctuation.definition.variable.php",
 				"variable.other.property.js",
 				"support.class.console.js",
