@@ -589,6 +589,7 @@
 				"variable.parameter.ts",
 				"punctuation.separator.key-value.ts",
 				"entity.name.function.sql",
+				"source.php meta.function-call.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
 			],
