@@ -456,7 +456,8 @@
 				"keyword",
 				"keyword.control",
 				"keyword.operator.new",
-				"keyword.operator.expression"
+				"keyword.operator.expression",
+				"entity.name.goto-label"
 			],
 			"settings": {
 				"fontStyle": "bold",
