@@ -287,7 +287,10 @@
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.italic.markdown",
 				"meta.link.reference.def.markdown",
-				"constant.other.reference.link.markdown"
+				"meta.link.reference.markdown",
+				"meta.link.reference.def.markdown constant.other.reference.link",
+				"meta.link.reference.markdown constant.other.reference.link",
+				"beginning.punctuation.definition.list.markdown"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -337,20 +340,6 @@
 		},
 		{
 			"scope": [
-				"string.other.link.title.markdown",
-				"string.other.link.description.markdown",
-				"meta.link.inline.markdown punctuation.definition.string",
-				"meta.image.inline.markdown punctuation.definition.string",
-				"variable.parameter.url.scss",
-				"variable.parameter.url.css"
-			],
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#287BDE"
-			}
-		},
-		{
-			"scope": [
 				"markup.underline.link.markdown",
 				"markup.underline.link.image.markdown"
 			],
@@ -361,9 +350,27 @@
 		},
 		{
 			"scope": [
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown",
+				"meta.link.reference.markdown punctuation.definition.string",
+				"meta.link.inline.markdown punctuation.definition.string",
+				"meta.image.inline.markdown punctuation.definition.string",
+				"meta.link.inet.markdown",
+				"meta.link.inet.markdown markup.underline.link.markdown",
+				"variable.parameter.url.scss",
+				"variable.parameter.url.css"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#287BDE"
+			}
+		},
+		{
+			"scope": [
 				"markup.inline.raw",
 				"markup.fenced_code.block",
-				"markup.fenced_code.block keyword.operator"
+				"markup.fenced_code.block keyword.operator",
+				"markup.fenced_code.block string.quoted"
 			],
 			"settings": {
 				"fontStyle": "normal",
