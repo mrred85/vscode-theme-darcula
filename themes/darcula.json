@@ -158,15 +158,34 @@
 			}
 		},
 		{
-			"scope": "emphasis",
+			"scope": [
+				"emphasis",
+				"markup.italic"
+			],
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "strong",
+			"scope": [
+				"strong",
+				"markup.bold"
+			],
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "invalid",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#BC3F3C"
 			}
 		},
 		{
@@ -264,46 +283,12 @@
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-				"entity.other.attribute-name.id.css",
-				"source.css support.function",
-				"source.css punctuation.section.function",
-				"source.css punctuation.definition.pseudo-class",
-				"source.css entity.name.function"
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown",
+				"meta.link.reference.def.markdown",
+				"constant.other.reference.link.markdown"
 			],
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#E8BF6A"
-			}
-		},
-		{
-			"scope": "invalid",
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#BC3F3C"
-			}
-		},
-		{
-			"scope": "markup.underline",
-			"settings": {
-				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": "markup.bold",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -312,14 +297,14 @@
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "bold italic",
 				"foreground": "#9876AA"
 			}
 		},
 		{
-			"scope": "markup.italic",
+			"scope": "meta.separator.markdown",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "normal",
 				"foreground": "#9876AA"
 			}
 		},
@@ -345,19 +330,17 @@
 			}
 		},
 		{
-			"scope": [
-				"beginning.punctuation.definition.quote.markdown",
-				"beginning.punctuation.definition.list.markdown"
-			],
+			"scope": "meta.image.inline.markdown",
 			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#CC7832"
+				"background": "#364135"
 			}
 		},
 		{
 			"scope": [
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
+				"meta.link.inline.markdown punctuation.definition.string",
+				"meta.image.inline.markdown punctuation.definition.string",
 				"variable.parameter.url.scss",
 				"variable.parameter.url.css"
 			],
@@ -372,19 +355,37 @@
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "italic",
 				"foreground": "#FFC66D"
 			}
 		},
 		{
-			"scope": "markup.inline.raw",
+			"scope": [
+				"markup.inline.raw",
+				"markup.fenced_code.block",
+				"markup.fenced_code.block keyword.operator"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"markup.quote",
+				"meta.link.inline.markdown punctuation.definition.metadata",
+				"meta.image.inline.markdown punctuation.definition.metadata"
+			],
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#6A8759"
 			}
 		},
 		{
-			"scope": "meta.selector",
+			"scope": [
+				"meta.selector",
+				"entity.other.attribute-name"
+			],
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#A9B7C6"
@@ -693,6 +694,25 @@
 			}
 		},
 		{
+			"name": "CSS / SCSS / HTML CSS",
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.id.css",
+				"source.css support.function",
+				"source.css punctuation.section.function",
+				"source.css punctuation.definition.pseudo-class",
+				"source.css entity.name.function"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#E8BF6A"
+			}
+		},
+		{
 			"scope": [
 				"source.css support",
 				"source.css.scss constant.other",
@@ -704,7 +724,6 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
@@ -736,7 +755,6 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"source.css entity.name.tag",
 				"source.css keyword.control.at-rule",
