@@ -118,7 +118,7 @@
 		"statusBar.noFolderBackground": "#3C3F41",
 		"statusBar.debuggingBackground": "#3C3F41",
 		"statusBar.foreground": "#C9C9C9",
-		"statusBar.border": "#282828",
+		"statusBar.border": "#515151",
 		"statusBarItem.hoverBackground": "#4B6EAF",
 		"statusBarItem.activeBackground": "#CC7832",
 
@@ -145,10 +145,11 @@
 		"terminalCursor.foreground": "#BBBBBB",
 		"terminalCursor.background": "#2B2B2B",
 
-		"titleBar.activeBackground": "#3C3F41",
+		"titleBar.activeBackground": "#303030",
 		"titleBar.activeForeground": "#C9C9C9",
-		"titleBar.inactiveBackground": "#3C3F41",
-		"titleBar.inactiveForeground": "#8C8C8C"
+		"titleBar.inactiveBackground": "#393939",
+		"titleBar.inactiveForeground": "#8C8C8C",
+		"titleBar.border": "#262626"
 	},
 	"tokenColors": [
 		{
@@ -159,8 +160,28 @@
 		},
 		{
 			"scope": [
+				"markup.bold markup.italic",
+				"markup.bold markup.italic markup.inline.raw.markdown"
+			],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"scope": [
+				"strong",
+				"markup.bold",
+				"markup.bold markup.inline.raw.markdown"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"emphasis",
-				"markup.italic"
+				"markup.italic",
+				"markup.italic markup.inline.raw.markdown"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -168,15 +189,9 @@
 		},
 		{
 			"scope": [
-				"strong",
-				"markup.bold"
+				"markup.underline",
+				"markup.underline markup.inline.raw.markdown"
 			],
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "markup.underline",
 			"settings": {
 				"fontStyle": "underline"
 			}
