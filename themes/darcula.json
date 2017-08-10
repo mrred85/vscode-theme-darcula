@@ -383,9 +383,8 @@
 		{
 			"scope": [
 				"markup.inline.raw",
-				"markup.fenced_code.block",
-				"markup.fenced_code.block keyword.operator",
-				"markup.fenced_code.block string.quoted"
+				"markup.fenced_code.block.markdown punctuation.definition.markdown",
+				"markup.fenced_code.block.markdown fenced_code.block.language"
 			],
 			"settings": {
 				"fontStyle": "normal",
