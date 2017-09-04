@@ -482,6 +482,7 @@
 				"keyword.control",
 				"keyword.operator.new",
 				"keyword.operator.expression",
+				"keyword.operator.smarty",
 				"entity.name.goto-label"
 			],
 			"settings": {
@@ -551,7 +552,8 @@
 		{
 			"scope": [
 				"support.function.construct",
-				"support.function.builtin.python"
+				"support.function.builtin.python",
+				"support.function.built-in.smarty"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -616,6 +618,7 @@
 				"variable.parameter.ts",
 				"punctuation.separator.key-value.ts",
 				"entity.name.function.sql",
+				"variable.parameter.smarty",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
 			],
