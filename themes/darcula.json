@@ -515,7 +515,8 @@
 			"name": "this.self",
 			"scope": [
 				"variable.language",
-				"variable.parameter.function"
+				"variable.parameter.function",
+				"variable.other.global.smarty"
 			],
 			"settings": {
 				"fontStyle": "normal",
