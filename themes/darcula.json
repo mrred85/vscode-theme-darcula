@@ -79,7 +79,6 @@
 
 		"editorGroupHeader.tabsBackground": "#3C3F41",
 		"editorGroupHeader.noTabsBackground": "#3C3F41",
-		"editorGroupHeader.tabsBorder": "#439EB8",
 
 		"editorGutter.background": "#2B2B2B",
 		"editorGutter.addedBackground": "#629755",
@@ -91,6 +90,7 @@
 		"tab.activeForeground": "#C9C9C9",
 		"tab.inactiveBackground": "#3C3E3F",
 		"tab.inactiveForeground": "#8C8C8C",
+		"tab.activeBorder": "#439EB8",
 
 		"editorWidget.background": "#3C3F41",
 		"editorSuggestWidget.background": "#3B3E40",
