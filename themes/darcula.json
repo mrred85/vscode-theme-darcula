@@ -227,7 +227,7 @@
 				"comment.block.documentation entity.name.type.instance",
 				"comment.block.documentation variable.other",
 				"comment.block.documentation keyword.other.type",
-				"comment.block.documentation support.class.builtin",
+				"comment.block.documentation support.class",
 				"comment.block.documentation punctuation.separator.delimiter",
 				"string.quoted.docstring.multi.python"
 			],
@@ -730,6 +730,8 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.attribute.scss",
+				"source.css entity.other.attribute-name",
 				"source.css support.function",
 				"source.css punctuation.section.function",
 				"source.css punctuation.definition.pseudo-class",
