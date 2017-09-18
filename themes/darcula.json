@@ -591,7 +591,6 @@
 				"entity.name.class",
 				"entity.other.inherited-class",
 				"meta.function-call.static",
-				"meta.function-call entity.name.function",
 				"storage.type.cs",
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
