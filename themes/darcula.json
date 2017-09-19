@@ -537,6 +537,7 @@
 		{
 			"scope": [
 				"entity.name.function",
+				"source.php meta.function-call.php meta.method-call.php entity.name.function.php",
 				"meta.function-call.object",
 				"entity.name.function.js",
 				"support.function.console.js",
@@ -564,7 +565,7 @@
 		{
 			"scope": [
 				"punctuation.definition.group.regexp",
-				"meta.function-call.static.php",
+				"source.php meta.method-call.static.php entity.name.function.php",
 				"constant.other.class.php",
 				"support.function.math.js",
 				"support.function.dom.js",
@@ -619,6 +620,7 @@
 				"punctuation.separator.key-value.ts",
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
+				"source.php meta.function-call.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
 			],
