@@ -705,7 +705,8 @@
 				"punctuation.separator.parameters.python",
 				"punctuation.separator.element.python",
 				"punctuation.separator.arguments.python",
-				"punctuation.separator.object.ruby"
+				"punctuation.separator.object.ruby",
+				"punctuation.separator.key-value.po"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -900,6 +901,29 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "PO comments",
+			"scope": [
+				"comment.line.number-sign.po",
+				"comment.line.number-sign.reference.po punctuation.definition.comment.po",
+				"comment.line.number-sign.reference.po storage.type.class.po"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "PO meta",
+			"scope": [
+				"meta.header.po",
+				"meta.header.po string.other.po"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
 			}
 		}
 	]
