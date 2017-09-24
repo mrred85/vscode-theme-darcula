@@ -258,10 +258,7 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.language",
-				"constant.character.escape"
-			],
+			"scope": "constant.language",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
@@ -465,7 +462,7 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "normal",
 				"foreground": "#CC7832"
 			}
 		},
@@ -691,6 +688,7 @@
 		{
 			"name": "Separators. Variable other property: var->Property",
 			"scope": [
+				"constant.character.escape",
 				"variable.other.property",
 				"punctuation.terminator",
 				"punctuation.separator.list.comma",
