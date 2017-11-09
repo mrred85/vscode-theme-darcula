@@ -159,12 +159,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#2B2B2B",
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
 			"scope": [
 				"markup.bold markup.italic",
 				"markup.bold markup.italic markup.inline.raw.markdown"
