@@ -30,6 +30,8 @@
 		"badge.background": "#CC7832",
 		"badge.foreground": "#C9C9C9",
 
+		"progressBar.background": "#424D5F",
+
 		"list.focusBackground": "#0151A1",
 		"list.activeSelectionBackground": "#0151A1",
 		"list.activeSelectionForeground": "#C9C9C9",
@@ -138,6 +140,10 @@
 		"notification.warningBackground": "#CC7832",
 		"notification.warningForeground": "#C9C9C9",
 
+		"extensionButton.prominentBackground": "#196628",
+		"extensionButton.prominentForeground": "#C9C9C9",
+		"extensionButton.prominentHoverBackground": "#175A22",
+
 		"pickerGroup.border": "#537DA6",
 		"pickerGroup.foreground": "#CC7832",
 
@@ -163,6 +169,9 @@
 		"gitDecoration.ignoredResourceForeground": "#808080",
 		"gitDecoration.modifiedResourceForeground": "#6897BB",
 		"gitDecoration.untrackedResourceForeground": "#629755",
+
+		"textLink.foreground": "#287BDE",
+		"textLink.activeForeground": "#287BDE",
 
 		"titleBar.activeBackground": "#303030",
 		"titleBar.activeForeground": "#C9C9C9",
