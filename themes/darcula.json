@@ -60,6 +60,7 @@
 		"editor.wordHighlightBackground": "#214283",
 		"editor.wordHighlightStrongBackground": "#344134",
 		"editor.hoverHighlightBackground": "#0D293E",
+		"editor.rangeHighlightBackground": "#344134",
 
 		"editorLineNumber.foreground": "#606366",
 		"editorCursor.foreground": "#BBBBBB",
@@ -67,12 +68,18 @@
 		"editorWhitespace.foreground": "#3B3A32",
 		"editorIndentGuide.background": "#4D4D4D",
 		"editorRuler.foreground": "#4D4D4D",
+		"editorCodeLens.foreground": "#BBBBBB",
 		"editorBracketMatch.background": "#214283",
 		"editorBracketMatch.border": "#214283",
+
 		"editorOverviewRuler.border": "#4D4D4D",
 
 		"editorError.foreground": "#BC3F3C",
+		"editorError.border": "#BC3F3C",
+		"editorInfo.foreground": "#287BDE",
+		"editorInfo.border": "#287BDE",
 		"editorWarning.foreground": "#629755",
+		"editorWarning.border": "#629755",
 
 		"editorGroup.dropBackground": "#3A3A3A",
 		"editorGroup.border": "#515151",
@@ -124,6 +131,15 @@
 
 		"notification.background": "#323232",
 		"notification.foreground": "#C9C9C9",
+		"notification.buttonBackground": "#2F435A",
+		"notification.buttonHoverBackground": "#344A64",
+		"notification.buttonForeground": "#BBBBBB",
+		"notification.errorBackground": "#BC3F3C",
+		"notification.errorForeground": "#C9C9C9",
+		"notification.infoBackground": "#287BDE",
+		"notification.infoForeground": "#C9C9C9",
+		"notification.warningBackground": "#CC7832",
+		"notification.warningForeground": "#C9C9C9",
 
 		"pickerGroup.border": "#537DA6",
 		"pickerGroup.foreground": "#CC7832",
