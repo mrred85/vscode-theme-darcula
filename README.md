@@ -60,13 +60,14 @@ If you use *Git Lens* set below values in user settings, `settings.json` to inte
 
 ```JSON
 "gitlens.insiders": true,
-"gitlens.theme.annotations.file.gutter.dark.backgroundColor": "rgba(169, 183, 198, 0.075)",
-"gitlens.theme.annotations.file.gutter.dark.foregroundColor": "rgb(169, 183, 198)",
-"gitlens.theme.annotations.file.gutter.dark.uncommittedForegroundColor": "rgba(67, 158, 184, 0.9)",
-"gitlens.theme.annotations.line.trailing.dark.backgroundColor": "",
-"gitlens.theme.annotations.line.trailing.dark.foregroundColor": "rgba(67, 158, 184, 0.9)",
-"gitlens.theme.lineHighlight.dark.backgroundColor": "rgba(55, 71, 82, 0.6)",
-"gitlens.theme.lineHighlight.dark.overviewRulerColor": "rgba(55, 71, 82, 0.6)"
+"workbench.colorCustomizations": {
+    "gitlens.gutterBackgroundColor": "#3A3A3A70",
+    "gitlens.gutterForegroundColor": "#8C8C8C",
+    "gitlens.gutterUncommittedForegroundColor": "#629755",
+    "gitlens.lineHighlightBackgroundColor": "#38557075",
+    "gitlens.lineHighlightOverviewRulerColor": "#38557075",
+    "gitlens.trailingLineForegroundColor": "#606366"
+}
 ```
 
 Enjoy ;)
