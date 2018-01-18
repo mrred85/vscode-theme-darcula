@@ -39,18 +39,12 @@ To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 
 ```JSON
 "todohighlight.isCaseSensitive": false,
-"todohighlight.highlightWholeLine": false,
 "todohighlight.keywords": [
     {"text": "TODO:", "color": "#FAFAFA", "backgroundColor": "#629755", "overviewRulerColor": "#629755"},
-    {"text": "@TODO:", "color": "#FAFAFA", "backgroundColor": "#629755", "overviewRulerColor": "#629755"},
     {"text": "FIXME:", "color": "#FAFAFA", "backgroundColor": "#CC7832", "overviewRulerColor": "#CC7832"},
-    {"text": "@FIXME:", "color": "#FAFAFA", "backgroundColor": "#CC7832", "overviewRulerColor": "#CC7832"},
     {"text": "NOTE:", "color": "#FAFAFA", "backgroundColor": "#6897BB", "overviewRulerColor": "#6897BB"},
-    {"text": "@NOTE:", "color": "#FAFAFA", "backgroundColor": "#6897BB", "overviewRulerColor": "#6897BB"},
     {"text": "BUG:", "color": "#FAFAFA", "backgroundColor": "#B64213", "overviewRulerColor": "#B64213"},
-    {"text": "@BUG:", "color": "#FAFAFA", "backgroundColor": "#B64213", "overviewRulerColor": "#B64213"},
-    {"text": "IMPORTANT:", "color": "#FAFAFA", "backgroundColor": "#CC78D1", "overviewRulerColor": "#CC78D1"},
-    {"text": "@IMPORTANT:", "color": "#FAFAFA", "backgroundColor": "#CC78D1", "overviewRulerColor": "#CC78D1"}
+    {"text": "IMPORTANT:", "color": "#FAFAFA", "backgroundColor": "#CC78D1", "overviewRulerColor": "#CC78D1"}
 ]
 ```
 
