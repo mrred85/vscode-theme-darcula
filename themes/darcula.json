@@ -945,6 +945,37 @@
 				"fontStyle": "normal",
 				"foreground": "#6A8759"
 			}
+		},
+		{
+			"name": "Ini",
+			"scope": [
+				"source.ini"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "Ini punctuation",
+			"scope": [
+				"punctuation.separator.key-value.ini",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "Ini punctuation",
+			"scope": [
+				"entity.name.section.group-title.ini"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#CC7832"
+			}
 		}
 	]
 }
