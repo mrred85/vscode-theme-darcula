@@ -65,6 +65,7 @@
 		"editor.rangeHighlightBackground": "#344134",
 
 		"editorLineNumber.foreground": "#606366",
+		"editorActiveLineNumber.foreground": "#8C8C8C",
 		"editorCursor.foreground": "#BBBBBB",
 		"editorLink.activeForeground": "#287BDE",
 		"editorWhitespace.foreground": "#3B3A32",
