@@ -65,7 +65,7 @@
 		"editor.rangeHighlightBackground": "#344134",
 
 		"editorLineNumber.foreground": "#606366",
-		"editorActiveLineNumber.foreground": "#8C8C8C",
+		"editorLineNumber.activeForeground": "#8C8C8C",
 		"editorCursor.foreground": "#BBBBBB",
 		"editorLink.activeForeground": "#287BDE",
 		"editorWhitespace.foreground": "#3B3A32",
@@ -107,6 +107,7 @@
 		"editorSuggestWidget.selectedBackground": "#0151A1",
 		"editorHoverWidget.background": "#3C3F41",
 		"editorHoverWidget.border": "#5B5D5F",
+		"editorHint.foreground": "#f49810",
 
 		"peekView.border": "#5B5D5F",
 		"peekViewEditor.background": "#2B2B2B",
@@ -554,9 +555,11 @@
 				"entity.name.function.js",
 				"support.function.console.js",
 				"support.function.js",
+				"punctuation.decorator.js",
 				"entity.name.function.ts",
 				"support.function.console.ts",
-				"support.function.ts"
+				"support.function.ts",
+				"punctuation.decorator.ts"
 			],
 			"settings": {
 				"fontStyle": "normal",
