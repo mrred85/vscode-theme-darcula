@@ -74,6 +74,8 @@
 		"editorCodeLens.foreground": "#BBBBBB",
 		"editorBracketMatch.background": "#214283",
 		"editorBracketMatch.border": "#214283",
+		"editorHint.foreground": "#f49810",
+		"editorIndentGuide.activeBackground": "#999",
 
 		"editorOverviewRuler.border": "#8C8C8C",
 
@@ -107,7 +109,6 @@
 		"editorSuggestWidget.selectedBackground": "#0151A1",
 		"editorHoverWidget.background": "#3C3F41",
 		"editorHoverWidget.border": "#5B5D5F",
-		"editorHint.foreground": "#f49810",
 
 		"peekView.border": "#5B5D5F",
 		"peekViewEditor.background": "#2B2B2B",
