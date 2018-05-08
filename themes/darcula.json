@@ -638,7 +638,13 @@
 				"variable.parameter.smarty",
 				"source.php meta.function-call.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
-				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
+				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php",
+				"source.php punctuation.definition.begin.bracket.round.php",
+				"source.php punctuation.definition.end.bracket.round.php",
+				"source.php punctuation.definition.arguments.begin.bracket.round.php",
+				"source.php punctuation.definition.arguments.end.bracket.round.php",
+				"source.php punctuation.section.array.begin.php",
+				"source.php punctuation.section.array.end.php"
 			],
 			"settings": {
 				"fontStyle": "normal",
