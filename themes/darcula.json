@@ -306,7 +306,6 @@
 			"name": "HTML / XML Tags",
 			"scope": [
 				"entity.name.tag",
-				"entity.tag.apacheconf",
 				"punctuation.definition.tag"
 			],
 			"settings": {
@@ -497,7 +496,8 @@
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.smarty",
-				"entity.name.goto-label"
+				"entity.name.goto-label",
+				"entity.tag.apacheconf"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -636,6 +636,7 @@
 				"punctuation.separator.key-value.ts",
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
+				"punctuation.definition.tag.apacheconf",
 				"source.php meta.function-call.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php",
@@ -744,6 +745,31 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "HTML",
+			"scope": [
+				"constant.character.entity.html",
+				"constant.character.entity.html punctuation.definition.entity.html"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6D9CBE"
+			}
+		},
+		{
+			"name": "HTML String",
+			"scope": [
+				"string.unquoted.html",
+				"string.quoted.double.html",
+				"string.quoted.double.html punctuation.definition.string",
+				"string.quoted.single.html",
+				"string.quoted.single.html punctuation.definition.string"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#A5C261"
 			}
 		},
 		{
