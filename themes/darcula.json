@@ -657,7 +657,13 @@
 			"scope": [
 				"storage.type.annotation.java",
 				"storage.type.annotation.groovy",
-				"entity.name.function.decorator.python"
+				"entity.name.function.decorator.python",
+				"meta.decorator.js punctuation.decorator.js",
+				"meta.decorator.js variable.other.readwrite.js",
+				"meta.decorator.js meta.function-call.js entity.name.function.js",
+				"meta.decorator.ts punctuation.decorator.ts",
+				"meta.decorator.ts variable.other.readwrite.ts",
+				"meta.decorator.ts meta.function-call.ts entity.name.function.ts"
 			],
 			"settings": {
 				"fontStyle": "normal",
