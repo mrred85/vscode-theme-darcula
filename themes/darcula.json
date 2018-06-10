@@ -37,7 +37,7 @@
 		"list.activeSelectionForeground": "#C9C9C9",
 		"list.inactiveSelectionBackground": "#0D293E",
 		"list.highlightForeground": "#CC78D1",
-		"list.hoverBackground": "#494D4E",
+		"list.hoverBackground": "#494D4E55",
 
 		"activityBar.background": "#3C3F41",
 		"activityBar.dropBackground": "#3A3A3A",
@@ -128,8 +128,8 @@
 		"statusBar.debuggingBackground": "#3C3F41",
 		"statusBar.foreground": "#C9C9C9",
 		"statusBar.border": "#515151",
-		"statusBarItem.hoverBackground": "#4B6EAF",
-		"statusBarItem.activeBackground": "#CC7832",
+		"statusBarItem.hoverBackground": "#353739",
+		"statusBarItem.activeBackground": "#2C2E2F",
 
 		"notifications.background": "#323232",
 		"notifications.foreground": "#C9C9C9",
