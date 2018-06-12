@@ -315,13 +315,15 @@
 		},
 		{
 			"scope": [
+				"beginning.punctuation.definition.list.markdown",
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.italic.markdown",
 				"meta.link.reference.def.markdown",
 				"meta.link.reference.markdown",
 				"meta.link.reference.def.markdown constant.other.reference.link",
 				"meta.link.reference.markdown constant.other.reference.link",
-				"beginning.punctuation.definition.list.markdown"
+				"meta.image.reference.markdown punctuation.definition.constant.markdown",
+				"meta.image.reference.markdown constant.other.reference.link.markdown"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -364,12 +366,6 @@
 			}
 		},
 		{
-			"scope": "meta.image.inline.markdown",
-			"settings": {
-				"background": "#364135"
-			}
-		},
-		{
 			"scope": [
 				"markup.underline.link.markdown",
 				"markup.underline.link.image.markdown"
@@ -381,13 +377,29 @@
 		},
 		{
 			"scope": [
+				"markup.quote",
+				"meta.link.inline.markdown punctuation.definition.metadata.markdown",
+				"meta.image.inline.markdown punctuation.definition.metadata.markdown"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"scope": [
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
-				"meta.link.reference.markdown punctuation.definition.string",
-				"meta.link.inline.markdown punctuation.definition.string",
-				"meta.image.inline.markdown punctuation.definition.string",
+				"meta.link.reference.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.reference.markdown punctuation.definition.string.end.markdown",
+				"meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.inline.markdown punctuation.definition.string.end.markdown",
 				"meta.link.inet.markdown",
 				"meta.link.inet.markdown markup.underline.link.markdown",
+				"meta.image.inline.markdown punctuation.definition.string.begin.markdown",
+				"meta.image.inline.markdown punctuation.definition.string.end.markdown",
+				"meta.image.reference.markdown punctuation.definition.string.begin.markdown",
+				"meta.image.reference.markdown punctuation.definition.string.end.markdown",
 				"variable.parameter.url.scss",
 				"variable.parameter.url.css"
 			],
@@ -400,22 +412,19 @@
 			"scope": [
 				"markup.inline.raw",
 				"markup.fenced_code.block.markdown punctuation.definition.markdown",
-				"markup.fenced_code.block.markdown fenced_code.block.language"
+				"markup.fenced_code.block.markdown fenced_code.block.language.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown punctuation.definition.string.end.markdown",
+				"meta.link.reference.def.markdown string.other.link.description.title.markdown",
+				"meta.link.reference.def.markdown string.other.link.description.title.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.reference.def.markdown string.other.link.description.title.markdown punctuation.definition.string.end.markdown",
+				"meta.image.inline.markdown string.other.link.description.title.markdown",
+				"meta.image.inline.markdown string.other.link.description.title.markdown punctuation.definition.string.markdown"
 			],
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#808080"
-			}
-		},
-		{
-			"scope": [
-				"markup.quote",
-				"meta.link.inline.markdown punctuation.definition.metadata",
-				"meta.image.inline.markdown punctuation.definition.metadata"
-			],
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#6A8759"
 			}
 		},
 		{
