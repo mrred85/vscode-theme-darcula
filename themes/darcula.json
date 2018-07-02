@@ -168,11 +168,11 @@
 		"textLink.foreground": "#287BDE",
 		"textLink.activeForeground": "#287BDE",
 
-		"titleBar.activeBackground": "#303030",
+		"titleBar.activeBackground": "#3C3F41",
 		"titleBar.activeForeground": "#C9C9C9",
-		"titleBar.inactiveBackground": "#393939",
+		"titleBar.inactiveBackground": "#333536",
 		"titleBar.inactiveForeground": "#8C8C8C",
-		"titleBar.border": "#262626"
+		"titleBar.border": "#515151"
 	},
 	"tokenColors": [
 		{
