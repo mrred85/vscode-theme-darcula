@@ -797,6 +797,7 @@
 				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.attribute.scss",
+				"source.css constant.other.unicode-range.css",
 				"source.css entity.other.attribute-name",
 				"source.css support.function",
 				"source.css punctuation.section.function",
