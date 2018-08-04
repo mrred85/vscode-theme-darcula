@@ -459,9 +459,7 @@
 				"meta.diff.header",
 				"storage",
 				"storage.type",
-				"storage.modifier",
-				"storage.modifier.import.java",
-				"storage.modifier.package.java"
+				"storage.modifier"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -621,6 +619,10 @@
 				"storage.type.generic.cs",
 				"storage.type.modifier.cs",
 				"storage.type.variable.cs",
+				"storage.modifier.import.java",
+				"storage.modifier.import.java punctuation.separator.java",
+				"storage.modifier.package.java",
+				"storage.modifier.package.java punctuation.separator.java",
 				"storage.type.generic.java",
 				"storage.type.java",
 				"storage.type.object.array.java",
