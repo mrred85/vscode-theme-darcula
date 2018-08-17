@@ -168,6 +168,15 @@
 		"textLink.foreground": "#287BDE",
 		"textLink.activeForeground": "#287BDE",
 
+		"breadcrumbPicker.background": "#323232",
+		"breadcrumb.foreground": "#C9C9C9",
+		"breadcrumb.focusForeground": "#2F65CA",
+		"breadcrumb.activeSelectionForeground": "#287BDE",
+
+		"settings.modifiedItemForeground": "#629755",
+		"settings.headerForeground": "#537DA6",
+		"settings.inactiveSelectedItemBorder": "#646464",
+
 		"titleBar.activeBackground": "#3C3F41",
 		"titleBar.activeForeground": "#C9C9C9",
 		"titleBar.inactiveBackground": "#333536",
