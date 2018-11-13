@@ -64,6 +64,8 @@
 		"editor.wordHighlightStrongBackground": "#344134",
 		"editor.hoverHighlightBackground": "#0D293E",
 		"editor.rangeHighlightBackground": "#344134",
+		"editor.stackFrameHighlightBackground": "#E8BF6A",
+		"editor.focusedStackFrameHighlightBackground": "#6A8759",
 
 		"editorLineNumber.foreground": "#606366",
 		"editorLineNumber.activeForeground": "#8C8C8C",
@@ -89,18 +91,19 @@
 
 		"editorGroupHeader.tabsBackground": "#3C3F41",
 		"editorGroupHeader.noTabsBackground": "#3C3F41",
+		"editorGroupHeader.tabsBorder": "#515151",
 
 		"editorGutter.background": "#2B2B2B",
 		"editorGutter.addedBackground": "#629755",
 		"editorGutter.modifiedBackground": "#287BDE",
 		"editorGutter.deletedBackground": "#BC3F3C",
 
-		"tab.border": "#3C3F41",
+		"tab.border": "#515151",
 		"tab.activeBackground": "#515658",
 		"tab.activeForeground": "#C9C9C9",
 		"tab.inactiveBackground": "#3C3E3F",
 		"tab.inactiveForeground": "#8C8C8C",
-		"tab.activeBorder": "#439EB8",
+		"tab.activeModifiedBorder": "#439EB8",
 
 		"editorWidget.background": "#3C3F41",
 		"editorSuggestWidget.background": "#3B3E40",
