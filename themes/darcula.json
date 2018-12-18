@@ -780,8 +780,8 @@
 		{
 			"name": "HTML",
 			"scope": [
-				"constant.character.entity.html",
-				"constant.character.entity.html punctuation.definition.entity.html"
+				"text.html.derivative constant.character.entity",
+				"text.html.derivative constant.character.entity punctuation.definition.entity.html"
 			],
 			"settings": {
 				"fontStyle": "normal",
