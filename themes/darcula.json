@@ -899,6 +899,19 @@
 			}
 		},
 		{
+			"name": "PHP strings",
+			"scope": [
+				"string.quoted.single.html string.quoted.single.php punctuation.definition.string",
+				"string.quoted.single.html string.quoted.double.php punctuation.definition.string",
+				"string.quoted.double.html string.quoted.single.php punctuation.definition.string",
+				"string.quoted.double.html string.quoted.double.php punctuation.definition.string"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
+			}
+		},
+		{
 			"name": "Python function parameters",
 			"scope": [
 				"variable.parameter.function-call.python"
