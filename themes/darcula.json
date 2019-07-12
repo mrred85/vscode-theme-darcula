@@ -847,7 +847,8 @@
 				"support.type.property-name.media.css",
 				"punctuation.definition.entity.css",
 				"punctuation.separator.key-value.scss",
-				"punctuation.separator.key-value.css"
+				"punctuation.separator.key-value.css",
+				"variable.parameter.url.scss"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -874,7 +875,8 @@
 			"scope": [
 				"source.css entity.name.tag",
 				"source.css keyword.control.at-rule",
-				"source.css keyword.operator.logical"
+				"source.css keyword.operator.logical",
+				"source.css.scss keyword.control"
 			],
 			"settings": {
 				"fontStyle": "normal",
