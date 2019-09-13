@@ -821,7 +821,9 @@
 				"source.css support.function",
 				"source.css punctuation.section.function",
 				"source.css punctuation.definition.pseudo-class",
-				"source.css entity.name.function"
+				"source.css entity.name.function",
+				"source.css keyword.operator.logical.and.media.css",
+				"source.css.scss keyword.operator.logical.scss"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -875,7 +877,6 @@
 			"scope": [
 				"source.css entity.name.tag",
 				"source.css keyword.control.at-rule",
-				"source.css keyword.operator.logical",
 				"source.css.scss keyword.control"
 			],
 			"settings": {
