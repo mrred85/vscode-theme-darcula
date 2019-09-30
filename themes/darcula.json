@@ -720,10 +720,8 @@
 				"meta.function-call.invoke.php punctuation.definition.variable.php",
 				"variable.other.property.js",
 				"support.class.console.js",
-				"meta.object-literal.key entity.name.function.js",
 				"variable.other.property.ts",
 				"support.class.console.ts",
-				"meta.object-literal.key entity.name.function.ts",
 				"string.quoted.other.backtick.sql"
 			],
 			"settings": {
