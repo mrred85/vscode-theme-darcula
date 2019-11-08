@@ -11,7 +11,7 @@
 		"Darcula Theme",
 		"IntelliJ Darcula"
 	],
-	"version": "1.13.1",
+	"version": "1.14.0",
 	"author": {
 		"name": "Victor Rosu",
 		"url": "https://github.com/mrred85"
@@ -21,7 +21,7 @@
 		"Victor Rosu (mrred85)"
 	],
 	"engines": {
-		"vscode": "^1.38.0"
+		"vscode": "^1.40.0"
 	},
 	"icon": "icon.png",
 	"homepage": "https://github.com/mrred85/vscode-theme-darcula",
