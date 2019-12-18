@@ -615,7 +615,6 @@
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
 				"punctuation.definition.tag.apacheconf",
-				"source.php meta.function-call.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php",
 				"source.php punctuation.definition.begin.bracket.round.php",
@@ -633,7 +632,8 @@
 		{
 			"scope": [
 				"entity.name.function",
-				"source.php meta.function-call.php meta.method-call.php entity.name.function.php",
+				"source.php meta.method-call.static.php meta.method-call.php entity.name.function.php",
+				"source.php meta.class.php meta.class.body.php meta.function.php support.function.magic.php",
 				"meta.function-call.object",
 				"entity.name.function.js",
 				"support.function.console.js",
@@ -651,6 +651,7 @@
 		},
 		{
 			"scope": [
+				"source.php meta.class.php meta.class.body.php meta.function-call.php entity.name.function.php",
 				"support.function.construct",
 				"support.function.builtin.python",
 				"support.function.built-in.smarty"
@@ -664,7 +665,7 @@
 			"scope": [
 				"punctuation.definition.group.regexp",
 				"source.php meta.method-call.static.php entity.name.function.php",
-				"constant.other.class.php",
+				"source.php constant.other.class.php",
 				"support.function.math.js",
 				"support.function.dom.js",
 				"support.function.math.ts",
@@ -719,7 +720,12 @@
 				"support.variable",
 				"source.php string.quoted.double.php variable.other.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php",
-				"meta.function-call.invoke.php punctuation.definition.variable.php",
+				"source.php meta.function-call.invoke.php punctuation.definition.variable.php",
+				"source.php meta.class.php meta.class.body.php variable.other.property.php",
+				"source.php string.quoted.single.sql.php source.sql.embedded.php",
+				"source.php string.quoted.single.sql.php source.sql.embedded.php keyword.other.sql",
+				"source.php string.quoted.double.sql.php source.sql.embedded.php",
+				"source.php string.quoted.double.sql.php source.sql.embedded.php keyword.other.sql",
 				"variable.other.property.js",
 				"support.class.console.js",
 				"variable.other.property.ts",
