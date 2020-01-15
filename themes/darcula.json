@@ -789,6 +789,29 @@
 			}
 		},
 		{
+			"name": "HTML JS INLINE",
+			"scope": [
+				"text.html.derivative meta.embedded.line.js source.js meta.brace.round.js",
+				"text.html.derivative meta.embedded.line.js source.js meta.brace.square.js",
+				"text.html.derivative meta.embedded.line.js source.js punctuation.accessor.js"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "HTML JS INLINE strings",
+			"scope": [
+				"text.html.derivative meta.embedded.line.js source.js string.quoted.double.js punctuation.definition.string",
+				"text.html.derivative meta.embedded.line.js source.js string.quoted.single.js punctuation.definition.string"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
+			}
+		},
+		{
 			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"entity.other.attribute-name.class.css",
