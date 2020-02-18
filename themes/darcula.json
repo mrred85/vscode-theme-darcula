@@ -616,7 +616,7 @@
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
 				"punctuation.definition.tag.apacheconf",
-				"source.php meta.function-call.php entity.name.function.php",
+				"source.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php",
 				"source.php punctuation.definition.begin.bracket.round.php",
@@ -634,7 +634,8 @@
 		{
 			"scope": [
 				"entity.name.function",
-				"source.php meta.method-call.static.php meta.method-call.php entity.name.function.php",
+				"source.php meta.method-call.php entity.name.function.php",
+				"source.php meta.function.php entity.name.function.php",
 				"source.php meta.class.php meta.class.body.php meta.function.php support.function.magic.php",
 				"meta.function-call.object",
 				"entity.name.function.js",
