@@ -826,7 +826,6 @@
 				"source.css constant.other.unicode-range.css",
 				"source.css entity.other.attribute-name",
 				"source.css support.function",
-				"source.css punctuation.section.function",
 				"source.css punctuation.definition.pseudo-class",
 				"source.css entity.name.function",
 				"source.css keyword.operator.logical.and.media.css",
@@ -835,6 +834,13 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#E8BF6A"
+			}
+		},
+		{
+			"scope": "source.css.scss meta.attribute-selector.scss",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#6A8759"
 			}
 		},
 		{
@@ -854,10 +860,10 @@
 				"support.type.property-name.html.css",
 				"support.type.property-name.scss",
 				"support.type.property-name.media.css",
-				"punctuation.definition.entity.css",
+				"source.css punctuation.definition.entity",
+				"source.css.scss punctuation.definition.attribute-selector",
 				"punctuation.separator.key-value.scss",
-				"punctuation.separator.key-value.css",
-				"variable.parameter.url.scss"
+				"punctuation.separator.key-value.css"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -869,8 +875,7 @@
 			"scope": [
 				"source.css constant.numeric",
 				"source.css constant.other.color",
-				"source.css.scss meta.at-rule variable",
-				"source.css.scss meta.property-value.scss variable",
+				"source.css.scss variable.scss",
 				"punctuation.definition.constant.ruby",
 				"constant.other.symbol.ruby",
 				"constant.other.symbol.hashkey.ruby"
