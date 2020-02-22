@@ -944,9 +944,7 @@
 		},
 		{
 			"name": "Python function parameters",
-			"scope": [
-				"variable.parameter.function-call.python"
-			],
+			"scope": "variable.parameter.function-call.python",
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#AA4926"
@@ -965,9 +963,7 @@
 		},
 		{
 			"name": "Python strings types",
-			"scope": [
-				"storage.type.string.python"
-			],
+			"scope": "storage.type.string.python",
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#008080"
@@ -1008,9 +1004,7 @@
 		},
 		{
 			"name": "Ruby variables",
-			"scope": [
-				"variable.other.readwrite.instance.ruby"
-			],
+			"scope": "variable.other.readwrite.instance.ruby",
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#D0D0FF"
@@ -1052,9 +1046,7 @@
 		},
 		{
 			"name": "Ini",
-			"scope": [
-				"source.ini"
-			],
+			"scope": "source.ini",
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#6A8759"
@@ -1073,9 +1065,7 @@
 		},
 		{
 			"name": "Ini punctuation",
-			"scope": [
-				"entity.name.section.group-title.ini"
-			],
+			"scope": "entity.name.section.group-title.ini",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#CC7832"
