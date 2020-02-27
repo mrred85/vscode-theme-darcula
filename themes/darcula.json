@@ -715,6 +715,13 @@
 			}
 		},
 		{
+			"scope": "entity.name.type.ts",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#507874"
+			}
+		},
+		{
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
