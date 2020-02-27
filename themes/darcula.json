@@ -72,7 +72,7 @@
 		"editor.rangeHighlightBackground": "#344134",
 		"editor.stackFrameHighlightBackground": "#E8BF6A",
 		"editor.focusedStackFrameHighlightBackground": "#6A8759",
-		"editor.foldBackground": "#4D4D4D",
+		"editor.foldBackground": "#3A3A3A",
 
 		"editorLineNumber.foreground": "#606366",
 		"editorLineNumber.activeForeground": "#8C8C8C",
@@ -177,7 +177,7 @@
 		"gitDecoration.untrackedResourceForeground": "#629755",
 
 		"textLink.foreground": "#287BDE",
-		"textLink.activeForeground": "#287BDE",
+		"textLink.activeForeground": "#589DF6",
 
 		"breadcrumbPicker.background": "#323232",
 		"breadcrumb.background": "#3C3F41",
