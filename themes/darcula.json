@@ -263,6 +263,7 @@
 				"comment.block.documentation",
 				"comment.block.documentation entity.name.type.instance",
 				"comment.block.documentation variable.other",
+				"comment.block.documentation keyword.operator",
 				"comment.block.documentation keyword.other.type",
 				"comment.block.documentation support.class",
 				"comment.block.documentation punctuation.separator.delimiter",
