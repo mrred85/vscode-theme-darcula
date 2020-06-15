@@ -11,14 +11,14 @@
 		"Darcula Theme",
 		"IntelliJ Darcula"
 	],
-	"version": "1.16.0",
+	"version": "1.17.0",
 	"author": {
-		"name": "Victor Rosu",
+		"name": "Victor Roșu",
 		"url": "https://github.com/mrred85"
 	},
 	"publisher": "mrred85",
 	"maintainers": [
-		"Victor Rosu (mrred85)"
+		"Victor Roșu (mrred85)"
 	],
 	"engines": {
 		"vscode": "^1.42.0"
