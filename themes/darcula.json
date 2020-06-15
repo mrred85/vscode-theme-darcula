@@ -44,11 +44,11 @@
 		"listFilterWidget.noMatchesOutline": "#FF6464",
 
 		"activityBar.background": "#3C3F41",
-		"activityBar.dropBackground": "#3A3A3A",
 		"activityBar.foreground": "#C9C9C9",
 		"activityBar.inactiveForeground": "#BBBBBB",
 		"activityBar.activeBackground": "#323232",
 		"activityBar.activeBorder": "#439EB8",
+		"activityBar.dropBorder": "#BBBBBB",
 		"activityBarBadge.background": "#CC7832",
 		"activityBarBadge.foreground": "#C9C9C9",
 
@@ -80,14 +80,16 @@
 		"editorLink.activeForeground": "#287BDE",
 		"editorWhitespace.foreground": "#3B3A32",
 		"editorIndentGuide.background": "#4D4D4D",
+		"editorIndentGuide.activeBackground": "#999999",
 		"editorRuler.foreground": "#4D4D4D",
 		"editorCodeLens.foreground": "#BBBBBB",
 		"editorBracketMatch.background": "#214283",
 		"editorBracketMatch.border": "#214283",
 		"editorHint.foreground": "#f49810",
-		"editorIndentGuide.activeBackground": "#999",
 
 		"editorOverviewRuler.border": "#8C8C8C",
+		"editorOverviewRuler.currentContentForeground": "#447152",
+		"editorOverviewRuler.incomingContentForeground": "#43698D",
 
 		"editorError.foreground": "#BC3F3C",
 		"editorInfo.foreground": "#287BDE",
@@ -162,10 +164,8 @@
 		"merge.commonHeaderBackground": "#656E7699",
 		"merge.currentContentBackground": "#29443699",
 		"merge.currentHeaderBackground": "#44715299",
-		"editorOverviewRuler.currentContentForeground": "#447152",
 		"merge.incomingContentBackground": "#38557099",
 		"merge.incomingHeaderBackground": "#43698D99",
-		"editorOverviewRuler.incomingContentForeground": "#43698D",
 
 		"terminalCursor.foreground": "#BBBBBB",
 		"terminalCursor.background": "#2B2B2B",
