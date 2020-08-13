@@ -1079,6 +1079,49 @@
 				"fontStyle": "",
 				"foreground": "#CC7832"
 			}
+		},
+		{
+			"name": "Editorconfig constant",
+			"scope": "source.editorconfig constant.language",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "Editorconfig punctuation",
+			"scope": [
+				"punctuation.separator.key-value.editorconfig",
+				"source.editorconfig punctuation.definition.brace.bracket"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "Editorconfig meta header",
+			"scope": "entity.name.section.group-title.editorconfig",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Editorconfig keyword definition",
+			"scope": "source.editorconfig keyword.other.definition",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "Editorconfig custom rule",
+			"scope": "keyword.other.definition.custom.editorconfig",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#769AA5"
+			}
 		}
 	]
 }
