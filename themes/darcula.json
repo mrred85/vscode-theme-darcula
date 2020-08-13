@@ -1073,10 +1073,10 @@
 			}
 		},
 		{
-			"name": "Ini punctuation",
+			"name": "Ini meta header",
 			"scope": "entity.name.section.group-title.ini",
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "",
 				"foreground": "#CC7832"
 			}
 		}
