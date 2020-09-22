@@ -189,6 +189,12 @@
 		"settings.headerForeground": "#537DA6",
 		"settings.modifiedItemIndicator": "#629755",
 
+		"menubar.selectionForeground": "#C9C9C9",
+		"menu.separatorBackground": "#8C8C8C",
+		"menu.foreground": "#C9C9C9",
+		"menu.selectionBackground": "#0151A1",
+		"menu.selectionForeground": "#C9C9C9",
+
 		"titleBar.activeBackground": "#3C3F41",
 		"titleBar.activeForeground": "#C9C9C9",
 		"titleBar.inactiveBackground": "#333536",
