@@ -730,22 +730,21 @@
 			}
 		},
 		{
+			"name": "Variable. Variable other property: var->Property",
 			"scope": [
 				"variable",
+				"variable.other.property",
 				"meta.definition.variable.name",
 				"meta.object-literal.key",
 				"support.variable",
 				"source.php string.quoted.double.php variable.other.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php",
 				"source.php meta.function-call.invoke.php punctuation.definition.variable.php",
-				"source.php meta.class.php meta.class.body.php variable.other.property.php",
 				"source.php string.quoted.single.sql.php source.sql.embedded.php",
 				"source.php string.quoted.single.sql.php source.sql.embedded.php keyword.other.sql",
 				"source.php string.quoted.double.sql.php source.sql.embedded.php",
 				"source.php string.quoted.double.sql.php source.sql.embedded.php keyword.other.sql",
-				"variable.other.property.js",
 				"support.class.console.js",
-				"variable.other.property.ts",
 				"support.class.console.ts",
 				"string.quoted.other.backtick.sql"
 			],
@@ -755,10 +754,9 @@
 			}
 		},
 		{
-			"name": "Separators. Variable other property: var->Property",
+			"name": "Separators",
 			"scope": [
 				"constant.character.escape",
-				"variable.other.property",
 				"punctuation.terminator",
 				"punctuation.separator.list.comma",
 				"punctuation.separator.delimiter",
@@ -808,6 +806,8 @@
 		{
 			"name": "HTML JS INLINE",
 			"scope": [
+				"source.php meta.method-call.php meta.function-call.php entity.name.function.php",
+				"source.php meta.method-call.static.php meta.function-call.php entity.name.function.php",
 				"text.html.derivative meta.embedded.line.js source.js meta.brace.round.js",
 				"text.html.derivative meta.embedded.line.js source.js meta.brace.square.js",
 				"text.html.derivative meta.embedded.line.js source.js punctuation.accessor.js"
