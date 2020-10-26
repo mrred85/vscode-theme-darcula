@@ -624,7 +624,6 @@
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
 				"punctuation.definition.tag.apacheconf",
-				"source.php entity.name.function.php",
 				"source.php string.quoted.double.php punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php",
 				"source.php punctuation.definition.begin.bracket.round.php",
@@ -642,8 +641,7 @@
 		{
 			"scope": [
 				"entity.name.function",
-				"source.php meta.method-call.php entity.name.function.php",
-				"source.php meta.function.php entity.name.function.php",
+				"source.php meta.method-call.static.php meta.method-call.php entity.name.function.php",
 				"source.php meta.class.php meta.class.body.php meta.function.php support.function.magic.php",
 				"meta.function-call.object",
 				"entity.name.function.js",
@@ -674,7 +672,7 @@
 		{
 			"scope": [
 				"punctuation.definition.group.regexp",
-				"source.php meta.method-call.static.php entity.name.function.php",
+				"meta.method-call.static entity.name.function",
 				"source.php constant.other.class.php",
 				"support.function.math.js",
 				"support.function.dom.js",
@@ -806,8 +804,7 @@
 		{
 			"name": "HTML JS INLINE",
 			"scope": [
-				"source.php meta.method-call.php meta.function-call.php entity.name.function.php",
-				"source.php meta.method-call.static.php meta.function-call.php entity.name.function.php",
+				"source.php meta.function-call.php entity.name.function.php",
 				"text.html.derivative meta.embedded.line.js source.js meta.brace.round.js",
 				"text.html.derivative meta.embedded.line.js source.js meta.brace.square.js",
 				"text.html.derivative meta.embedded.line.js source.js punctuation.accessor.js"
