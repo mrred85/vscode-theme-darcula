@@ -804,9 +804,16 @@
 		{
 			"name": "HTML JS INLINE",
 			"scope": [
-				"text.html.derivative meta.embedded.line.js source.js meta.brace.round.js",
-				"text.html.derivative meta.embedded.line.js source.js meta.brace.square.js",
-				"text.html.derivative meta.embedded.line.js source.js punctuation.accessor.js"
+				"text.html meta.embedded.line.js source.js meta.brace.round.js",
+				"text.html meta.embedded.line.js source.js meta.brace.square.js",
+				"text.html meta.embedded.line.js source.js punctuation.accessor.js",
+				"text.html meta.embedded.line.js source.js punctuation.definition.parameters",
+				"text.html meta.embedded.line.js source.js punctuation.definition.block",
+				"source.php meta.embedded.js source.js meta.brace.round.js",
+				"source.php meta.embedded.js source.js meta.brace.square.js",
+				"source.php meta.embedded.js source.js punctuation.accessor.js",
+				"source.php meta.embedded.js source.js punctuation.definition.parameters",
+				"source.php meta.embedded.js source.js punctuation.definition.block"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -816,8 +823,8 @@
 		{
 			"name": "HTML JS INLINE strings",
 			"scope": [
-				"text.html.derivative meta.embedded.line.js source.js string.quoted.double.js punctuation.definition.string",
-				"text.html.derivative meta.embedded.line.js source.js string.quoted.single.js punctuation.definition.string"
+				"text.html meta.embedded.line.js source.js string.quoted.double.js punctuation.definition.string",
+				"text.html meta.embedded.line.js source.js string.quoted.single.js punctuation.definition.string"
 			],
 			"settings": {
 				"fontStyle": "",
