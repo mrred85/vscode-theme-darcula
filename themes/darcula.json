@@ -1136,6 +1136,37 @@
 				"fontStyle": "",
 				"foreground": "#769AA5"
 			}
+		},
+		{
+			"name": "Vue HTML directives",
+			"scope": [
+				"source.vue meta.directive.vue entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "Vue HTML punctuation",
+			"scope": [
+				"source.vue meta.directive.vue punctuation.definition.string.begin.html",
+				"source.vue meta.directive.vue punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A5C261"
+			}
+		},
+		{
+			"name": "Vue HTML components",
+			"scope": [
+				"source.vue support.class.component.html"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFC66D"
+			}
 		}
 	]
 }
