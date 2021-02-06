@@ -646,6 +646,7 @@
 				"entity.name.function",
 				"source.php meta.method-call.static.php meta.method-call.php entity.name.function.php",
 				"source.php meta.class.php meta.class.body.php meta.function.php support.function.magic.php",
+				"source.php meta.class.php meta.class.body.php meta.function.php support.function.constructor.php",
 				"meta.function-call.object",
 				"entity.name.function.js",
 				"support.function.console.js",
@@ -963,6 +964,13 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#9876AA"
+			}
+		},
+		{
+			"scope": "source.php string.quoted.double.php variable.language.this.php punctuation.definition.variable.php",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#94558D"
 			}
 		},
 		{
