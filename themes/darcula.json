@@ -10,6 +10,10 @@
 		"button.foreground": "#BBBBBB",
 		"button.hoverBackground": "#344A64",
 
+		"button.secondaryBackground": "#4B4F51",
+		"button.secondaryForeground": "#BBBBBB",
+		"button.secondaryHoverBackground": "#4D4D4D",
+
 		"dropdown.background": "#45494A",
 		"dropdown.border": "#646464",
 		"dropdown.foreground": "#BBBBBB",
