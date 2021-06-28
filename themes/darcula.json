@@ -914,6 +914,7 @@
 			}
 		},
 		{
+			"name" : "CSS keywords / tags",
 			"scope": [
 				"source.css entity.name.tag",
 				"source.css keyword.control.at-rule",
@@ -925,6 +926,7 @@
 			}
 		},
 		{
+			"name": "SCSS mixins",
 			"scope": [
 				"source.css.scss keyword.control.at-rule.mixin.scss",
 				"source.css.scss meta.property-list.scss entity.name.function"
@@ -959,6 +961,7 @@
 			}
 		},
 		{
+			"name": "PHP constants",
 			"scope": [
 				"support.constant.core.php",
 				"support.constant.ext.php",
@@ -971,6 +974,7 @@
 			}
 		},
 		{
+			"name": "PHP strings variables",
 			"scope": "source.php string.quoted.double.php variable.language.this.php punctuation.definition.variable.php",
 			"settings": {
 				"fontStyle": "",
