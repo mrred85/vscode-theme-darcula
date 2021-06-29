@@ -982,6 +982,19 @@
 			}
 		},
 		{
+			"name": "PHP Blade",
+			"scope": [
+				"text.html.php.blade meta.directive.blade begin.bracket.round.blade.php",
+				"text.html.php.blade meta.directive.blade end.bracket.round.blade.php",
+				"text.html.php.blade meta.function.echo.blade",
+				"text.html.php.blade meta.function.echo.blade punctuation.terminator.statement.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
 			"name": "Python function parameters",
 			"scope": "variable.parameter.function-call.python",
 			"settings": {
