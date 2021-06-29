@@ -986,6 +986,7 @@
 			"scope": [
 				"text.html.php.blade meta.directive.blade begin.bracket.round.blade.php",
 				"text.html.php.blade meta.directive.blade end.bracket.round.blade.php",
+				"text.html.php.blade meta.directive.blade punctuation.terminator.statement.php",
 				"text.html.php.blade meta.function.echo.blade",
 				"text.html.php.blade meta.function.echo.blade punctuation.terminator.statement.php"
 			],
