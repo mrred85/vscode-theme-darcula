@@ -570,7 +570,8 @@
 			"scope": [
 				"variable.language",
 				"variable.parameter.function",
-				"variable.other.global.smarty"
+				"variable.other.global.smarty",
+				"support.function.globalvar.sql"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -638,7 +639,8 @@
 				"source.php punctuation.definition.arguments.begin.bracket.round.php",
 				"source.php punctuation.definition.arguments.end.bracket.round.php",
 				"source.php punctuation.section.array.begin.php",
-				"source.php punctuation.section.array.end.php"
+				"source.php punctuation.section.array.end.php",
+				"source.php source.sql.embedded.php"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -682,6 +684,7 @@
 				"punctuation.definition.group.regexp",
 				"meta.method-call.static entity.name.function",
 				"source.php constant.other.class.php",
+				"source.sql support.function",
 				"support.function.math.js",
 				"support.function.dom.js",
 				"support.function.math.ts",
@@ -746,15 +749,11 @@
 				"source.php string.quoted.double.php variable.other punctuation.definition.variable.php",
 				"source.php string.unquoted.heredoc.php variable.other punctuation.definition.variable.php",
 				"source.php meta.function-call.invoke.php punctuation.definition.variable.php",
-				"source.php string.quoted.single.sql.php source.sql.embedded.php",
-				"source.php string.quoted.single.sql.php source.sql.embedded.php keyword.other.sql",
-				"source.php string.quoted.double.sql.php source.sql.embedded.php",
-				"source.php string.quoted.double.sql.php source.sql.embedded.php keyword.other.sql",
-				"source.php string.unquoted.heredoc.php meta.embedded.sql source.sql",
-				"source.php string.unquoted.heredoc.php meta.embedded.sql source.sql keyword.other.sql",
 				"support.class.console.js",
 				"support.class.console.ts",
-				"string.quoted.other.backtick.sql"
+				"keyword.other.sql",
+				"string.quoted.other.backtick.sql",
+				"source.sql text.variable"
 			],
 			"settings": {
 				"fontStyle": "",
