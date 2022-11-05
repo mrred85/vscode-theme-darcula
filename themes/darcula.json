@@ -672,7 +672,9 @@
 			"scope": [
 				"support.function.construct",
 				"support.function.builtin.python",
-				"support.function.built-in.smarty"
+				"support.function.built-in.smarty",
+				"support.type.builtin.js",
+				"support.type.builtin.ts"
 			],
 			"settings": {
 				"fontStyle": "bold",
