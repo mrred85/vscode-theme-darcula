@@ -950,6 +950,14 @@
 			}
 		},
 		{
+			"name": "PHP 8 named arguments",
+			"scope": "source.php entity.name.variable.parameter.php",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#467CDA"
+			}
+		},
+		{
 			"name": "PHP strings",
 			"scope": [
 				"string.quoted.single.html string.quoted.single.php punctuation.definition.string",
@@ -1182,7 +1190,8 @@
 		{
 			"name": "Vue HTML directives",
 			"scope": [
-				"source.vue meta.directive.vue entity.other.attribute-name.html"
+				"source.vue meta.directive.vue entity.other.attribute-name.html",
+				"source.vue meta.attribute.directive.vue entity.other.attribute-name.html"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -1193,7 +1202,9 @@
 			"name": "Vue HTML punctuation",
 			"scope": [
 				"source.vue meta.directive.vue punctuation.definition.string.begin.html",
-				"source.vue meta.directive.vue punctuation.definition.string.end.html"
+				"source.vue meta.directive.vue punctuation.definition.string.end.html",
+				"source.vue meta.attribute.directive.vue punctuation.definition.string.begin.html",
+				"source.vue meta.attribute.directive.vue punctuation.definition.string.end.html"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -1203,11 +1214,14 @@
 		{
 			"name": "Vue HTML components",
 			"scope": [
-				"source.vue support.class.component.html"
+				"source.vue support.class.component.html",
+				"source.vue meta.tag.custom.start.html entity.name.tag.html",
+				"source.vue meta.tag.custom.end.html entity.name.tag.html",
+				"source.vue meta.tag.other.unrecognized.html.derivative entity.name.tag.html"
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FFC66D"
+				"foreground": "#26BDA4"
 			}
 		}
 	]
