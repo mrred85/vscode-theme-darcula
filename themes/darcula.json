@@ -627,6 +627,9 @@
 				"variable.other.object.ts",
 				"variable.parameter.ts",
 				"punctuation.separator.key-value.ts",
+				"variable.other.readwrite.tsx",
+				"variable.other.object.tsx",
+				"variable.parameter.tsx",
 				"entity.name.function.sql",
 				"variable.parameter.smarty",
 				"punctuation.definition.tag.apacheconf",
@@ -674,7 +677,8 @@
 				"support.function.builtin.python",
 				"support.function.built-in.smarty",
 				"support.type.builtin.js",
-				"support.type.builtin.ts"
+				"support.type.builtin.ts",
+				"support.type.builtin.tsx"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -734,7 +738,10 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.ts",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#507874"
@@ -766,6 +773,7 @@
 			"name": "Separators",
 			"scope": [
 				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
 				"constant.character.escape",
 				"punctuation.terminator",
 				"punctuation.separator.list.comma",
@@ -777,6 +785,8 @@
 				"punctuation.separator.parameter.js",
 				"punctuation.separator.comma.ts",
 				"punctuation.separator.parameter.ts",
+				"punctuation.separator.comma.tsx",
+				"punctuation.separator.parameter.tsx",
 				"punctuation.separator.parameters.python",
 				"punctuation.separator.element.python",
 				"punctuation.separator.arguments.python",
@@ -1214,6 +1224,7 @@
 		{
 			"name": "Vue HTML components",
 			"scope": [
+				"source.tsx support.class.component.tsx",
 				"source.vue support.class.component.html",
 				"source.vue meta.tag.custom.start.html entity.name.tag.html",
 				"source.vue meta.tag.custom.end.html entity.name.tag.html",
