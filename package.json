@@ -1,7 +1,7 @@
 {
 	"name": "theme-darcula",
-	"displayName": "Darcula",
-	"description": "Darcula Theme for VSCode",
+	"displayName": "%displayName%",
+  	"description": "%description%",
 	"categories": [
 		"Themes"
 	],
@@ -17,11 +17,12 @@
 		"url": "https://github.com/mrred85"
 	},
 	"publisher": "mrred85",
+	"license": "MIT",
 	"maintainers": [
 		"Victor Roșu (mrred85)"
 	],
 	"engines": {
-		"vscode": "^1.78.0"
+		"vscode": "*"
 	},
 	"icon": "icon.png",
 	"homepage": "https://github.com/mrred85/vscode-theme-darcula",
@@ -35,7 +36,8 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Darcula",
+				"id": "Darcula",
+				"label": "%themeLabel%",
 				"uiTheme": "vs-dark",
 				"path": "./themes/darcula.json"
 			}

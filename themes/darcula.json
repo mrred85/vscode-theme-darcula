@@ -84,8 +84,8 @@
 		"editorCursor.foreground": "#BBBBBB",
 		"editorLink.activeForeground": "#287BDE",
 		"editorWhitespace.foreground": "#3B3A32",
-		"editorIndentGuide.background": "#4D4D4D",
-		"editorIndentGuide.activeBackground": "#999999",
+		"editorIndentGuide.background1": "#4D4D4D",
+		"editorIndentGuide.activeBackground1": "#999999",
 		"editorRuler.foreground": "#4D4D4D",
 		"editorCodeLens.foreground": "#BBBBBB",
 		"editorBracketMatch.background": "#214283",
@@ -1235,5 +1235,13 @@
 				"foreground": "#26BDA4"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"newOperator": "#CC7832",
+		"stringLiteral": "#629755",
+		"customLiteral": "#A9B7C6",
+		"numberLiteral": "#6897BB",
+		"constant": "#CC7832"
+	}
 }
