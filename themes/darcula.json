@@ -1234,6 +1234,27 @@
 				"fontStyle": "",
 				"foreground": "#26BDA4"
 			}
+		},
+		{
+			"name": "Go functions",
+			"scope": [
+				"source.go entity.name.function.go"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#56A8F5"
+			}
+		},
+		{
+			"name": "Go types",
+			"scope": [
+				"source.go entity.name.type.package.go",
+				"source.go entity.name.type.go"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B0BF7E"
+			}
 		}
 	],
 	"semanticHighlighting": true,
