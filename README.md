@@ -48,6 +48,30 @@ To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 ]
 ```
 
+### TODO Tree plugin
+
+If you use *TODO Tree* set below values in user settings, `settings.json` to integrate "BUG", "HACK", "FIXME", "TODO", "NOTE", "IMPORTANT", "[ ]", "[x]"  background colors with this theme.
+
+```JSON
+"todo-tree.general.statusBar": "current file",
+"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "NOTE", "IMPORTANT", "[ ]", "[x]"],
+"todo-tree.highlights.customHighlight": {
+    "TODO": {"icon": "check-circle", "foreground": "#FAFAFA", "background": "#629755", "rulerColour": "#629755", "iconColour": "#629755"},
+    "FIXME": {"icon": "flame", "foreground": "#FAFAFA", "background": "#CC7832", "rulerColour": "#CC7832", "iconColour": "#CC7832"},
+    "NOTE": {"icon": "pencil", "foreground": "#FAFAFA", "background": "#6897BB", "rulerColour": "#6897BB", "iconColour": "#6897BB"},
+    "BUG": {"icon": "bug", "foreground": "#FAFAFA", "background": "#B64213", "rulerColour": "#B64213", "iconColour": "#B64213"},
+    "IMPORTANT": {"icon": "alert", "foreground": "#FAFAFA", "background": "#CC78D1", "rulerColour": "#CC78D1", "iconColour": "#CC78D1"},
+    "HACK": {"icon": "tools", "foreground": "#FAFAFA", "background": "#9876AA", "rulerColour": "#9876AA", "iconColour": "#9876AA"},
+    "[ ]": {"icon": "issue-opened", "foreground": "#BBBBBB", "background": "#2F435A"},
+    "[x]": {"icon": "issue-closed", "foreground": "#BBBBBB", "background": "#2F435A"}
+}
+```
+
+To color the whole line set:
+```JSON
+"todo-tree.highlights.defaultHighlight": {"type": "whole-line"}
+```
+
 ### Git Lens plugin
 
 If you use *Git Lens* set below values in user settings, `settings.json` to integrate with this theme.
