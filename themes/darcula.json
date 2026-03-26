@@ -195,7 +195,9 @@
 		"sash.hoverBorder": "#439EB8",
 
 		"menubar.selectionForeground": "#C9C9C9",
-		"menu.separatorBackground": "#8C8C8C",
+		"menu.separatorBackground": "#5B5D5F",
+		"menu.border": "#5B5D5F",
+		"menu.background": "#3C3F41",
 		"menu.foreground": "#C9C9C9",
 		"menu.selectionBackground": "#0151A1",
 		"menu.selectionForeground": "#C9C9C9",
